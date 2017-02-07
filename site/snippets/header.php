@@ -9,15 +9,16 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
 
   <?= css('assets/css/index.css') ?>
-
+  <link href="https://fonts.googleapis.com/css?family=Alike|Arbutus+Slab|Domine|Eczar|Fauna+One|Lato|Merriweather|Petrona|Prata|Scope+One|Vesper+Libre" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700|Rubik:300,400,500" rel="stylesheet">
 </head>
 <body>
-
   <header class="header wrap wide" role="banner">
     <div class="grid">
 
       <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
+        <?php $mylogo = new Asset('assets/images/logo.png');?>
+        <a href="<?= url() ?>" rel="home"><img src="<?php echo $mylogo->url() ?>" /></a>
       </div>
 
       <?php snippet('menu') ?>

@@ -1,0 +1,18 @@
+Title: sandy tsai
+
+----
+
+Intro: designer and cat stalker
+
+----
+
+Text: 
+
+<div class="textcontainer">
+I am a print and digital designer with a background in graphic design and web development. I have experience in visual and product design, and have worked in publishing, nonprofit, and tech in Los Angeles, San Francisco, and Taipei. <br /><br />
+
+I aim to design experiences that are beautiful and intimate, while also being useful, precise, and elegant. I love designs that are full of whimsy and personality, and similarly make an effort to incorporate that to my work if appropriate. I believe experiences should engage an audience or user on multiple levels: visually, emotionally, and intellectually. I am particularly obsessed with typography, books, technology, and cats.
+
+<h4>about sandytsai.co</h4>
+I coded this website from the ground up with a folder-based CMS called (link: https://getkirby.com/ text: Kirby). I used (link: https://atom.io/ text: Atom) to code and the site is hosted through my (link: https://github.com text: Github) repository. It is still a work-in-progress, but so far it has been a great way to review the PHP, HTML, and CSS that I learned in college. More to come: instagram feed, hand-lettering section, and potentially a blog section.
+</div>
