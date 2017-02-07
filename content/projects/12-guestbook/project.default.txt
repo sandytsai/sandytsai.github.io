@@ -1,0 +1,23 @@
+Title: Wedding Guestbook
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+<div class="textcontainer">
+<h4>personal project</h4>
+This is a handmade wedding guestbook I made for my sister Jasmine and her husband Adam. I wanted to create something very personal, customized, and handmade.<br /><br />
+
+The cover type treatment is hand lettered, and the same type is hand sewn on vellum paper for the inside cover. The book is bound by a coptic stitch, which I learned through online tutorials.
+</div>
+
+(image: guestbook_1.jpg)
+(image: guestbook_2.jpg)
+(image: guestbook_3.jpg)
+(image: guestbook_4.jpg)
+(image: guestbook_5.jpg)
+(image: guestbook_6.jpg)

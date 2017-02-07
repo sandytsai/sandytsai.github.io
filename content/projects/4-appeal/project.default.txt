@@ -1,0 +1,22 @@
+Title: 826 Holiday Appeal
+
+----
+
+Text: 
+
+<div class="textcontainer">
+<h4>826 Valencia internship </h4>
+I designed the annual holiday appeal while I was an intern at 826 Valencia. Leading with the Design Director's concept of "Coming Soon to the Tenderloin" marquee, I researched classic theatre marquees in the art deco style. I created this print mailer with a modernized art deco illustration that matches the playfulness of 826 Valencia's visual style. The full mailer includes the flyer, the donation envelope, and in a select few a card with a personalized note.
+</div>
+
+(image: appeal_1.jpg)
+(image: appeal_2.jpg)
+(image: appeal_4.jpg)
+(image: appeal_3.jpg)
+
+<p class="imgtitle">Concept Sketch</p>
+(image: sketch.jpg)
+
+----
+
+Year: 

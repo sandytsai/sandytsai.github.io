@@ -1,0 +1,32 @@
+Title: Trek
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+<div class="container">
+<div class="floatleft">
+(image: trek_1.png)
+</div>
+<p class="textfloat">
+Trek is a mobile app that reinvents the solo traveling experience by bringing individuals together when they seek an adventure
+</p>
+</div>
+<p class="cf"></p>
+
+<div class="textcontainer">
+<h4>Personal Project</h4>
+This is an ongoing personal project I am developing based on the start of an idea from a design-thinking workshop, where my workshop partner told me about his desire for more independent, laid-back traveling without joining a tour group.
+
+<h4>Frustrations of Traveling</h4>
+Relying on a tour group leads to less flexibility and independence <br />
+Fear of being lonely when you travel by yourself<br />
+Desire to travel independently without having to make detailed plans<br />
+
+<h4>Solution</h4>
+With Trek, users can join local treks from where they are living or traveling. These treks are created by users who want to explore a place but also meet new people. It is targeted towards solo trekkers, but can be used by any small group looking to connect with more people.
+</div>

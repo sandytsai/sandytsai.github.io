@@ -1,0 +1,28 @@
+Title: Astrological Calendar
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+<div class="textcontainer">
+<h4>chronicle books design fellowship</h4>
+The creative director asked us to create a calendar concept. I designed this astrological perpetual calendar that can be used for any year. The separate parts were created using a cutting plotter, then put together using a mechanical screw. I designed and produced this prototype from concept to execution, with the industrial designer teaching me how to implement the design with a plotting cutter. I presented the prototype to the creative director, industrial designer, and editors.
+</div>
+
+(image: calendar_1.jpg)
+(image: calendar_2.jpg)
+(image: calendar_3.jpg)
+(image: calendar_4.jpg)
+
+<h4>Research</h4>
+(image: research_1.jpg)
+
+<h4>Design Iterations</h4>
+(image: process_1.jpg)
+
+<h4>cut designs</h4>
+(image: process_2.jpg)
