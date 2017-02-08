@@ -210,8 +210,10 @@ figcaption {
 
 .container {
   height:500px;
-  width:100%;
-  margin-top:3em;
+  width:80%;
+  margin:3em auto 0 auto;
+  display:block;
+
 }
 
 .floatleft {
@@ -858,8 +860,13 @@ font-weight: 700;
   background: #ffffff;
   margin: 3rem 1.5rem 0 1.5rem;
   padding-top: 2.25rem;
-  padding-bottom: .75rem;
+  padding-bottom: 8rem;
 }
+
+.project-content img{
+  margin:3rem 0 .5rem 0;
+}
+
 
 /* =====  4 Template-specific Components ==================================== */
 
