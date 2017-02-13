@@ -510,26 +510,6 @@ font-weight: 700;
     width:100%;
   }
 
-.floatleft {
-  width:100%;
-  clear:both;
-  display:block;
-  float:none;
-  margin-bottom:4em;
-}
-
-.textfloat {
-  width:100%;
-  display:block;
-  float:none;
-  padding:2em;
-}
-
-.container {
-  display:block;
-  height:auto;
-}
-
 
   .projects-section {
     background: #ffffff;
@@ -556,11 +536,44 @@ font-weight: 700;
 }
 }
 
+/*phone screenshots*/
+
+@media all and (max-width: 45em) {
+
+
+.floatleft {
+  width:100%;
+  clear:both;
+  display:block;
+  float:left;
+  margin-bottom:4em;
+  height:auto;
+}
+
+.textfloat {
+  width:100%;
+  float:left;
+  margin:1rem auto 0 auto;
+  padding:3rem;
+}
+
+.container {
+  display:block;
+  height:auto;
+}
+}
+
 @media all and (min-width: 30em) {
   .wrap:not(.wide) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .textfloat {
+    padding:2.5rem;
+  }
+
+
 
     .project-content{
       background: #ffffff;
@@ -594,6 +607,11 @@ font-weight: 700;
   .showcase-item {
     width: 33.33%;
   }
+
+  .textfloat {
+    padding:0;
+  }
+
 
 }
 
