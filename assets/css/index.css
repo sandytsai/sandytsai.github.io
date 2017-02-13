@@ -515,7 +515,7 @@ font-weight: 700;
     background: #ffffff;
     margin: 0;
     padding-top: 0rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
     width:100%;
   }
 
@@ -540,7 +540,6 @@ font-weight: 700;
 
 @media all and (max-width: 45em) {
 
-
 .floatleft {
   width:100%;
   clear:both;
@@ -560,6 +559,13 @@ font-weight: 700;
 .container {
   display:block;
   height:auto;
+}
+}
+
+@media all and (min-width: 40em) {
+
+.showcase-item {
+  width: 50%;
 }
 }
 
@@ -589,9 +595,6 @@ font-weight: 700;
       padding: .75rem 0.25rem 0;
     }
 
-    .showcase-item {
-      width: 50%;
-    }
 
   }
 }
@@ -615,7 +618,7 @@ font-weight: 700;
 
 }
 
-@media all and (min-width: 38.25em) {
+@media all and (min-width: 30em) {
   .wrap {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -627,20 +630,23 @@ font-weight: 700;
 }
 
 @media all and (min-width: 48em) {
-  .footer-copyright {
-    display: block;
-    font-variant-caps:all-small-caps;
-    font-family:"Assistant";
-    margin-top:1em;
-    font-weight:500;
-    letter-spacing:.125em;
-    font-size:1em;
-  }
+
+
+}
 
 .main {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+.footer-copyright {
+  display: block;
+  font-variant-caps:all-small-caps;
+  font-family:"Assistant";
+  margin-top:1em;
+  font-weight:500;
+  letter-spacing:.125em;
+  font-size:1em;
 }
 
 
