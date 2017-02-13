@@ -14,13 +14,11 @@ footer, header, main, menu, nav, section, summary {
 }
 
 ::-moz-selection {
-  background: #71efac;
-  color: #261e66;
+  background: #FFEBE4;
 }
 
 ::selection {
-  background: #71efac;
-  color: #261e66;
+  background: #FFEBE4;
 }
 
 
@@ -31,7 +29,6 @@ p, ul, ol, figure, pre {
   margin: 0 0 1.5rem;
 }
 
-/* Headings */
 h1, h2, h3 {
 font-family: 'Domine', serif;
   font-weight: 400;
@@ -64,7 +61,6 @@ h4 {
   padding:0;
 }
 
-/* Links */
 a {
   color: inherit;
   text-decoration: none;
@@ -75,7 +71,6 @@ a:hover, a:focus, a:active {
   color: #FF0000;
 }
 
-/* Misc */
 
 mark {
   padding: .1em .05em;
@@ -298,9 +293,6 @@ border-left: 2px solid #a8a5be;
 }
 
 .grid.gutter-1 {
-  /* We don’t use the shorthand attribute `margin: …` here
-     to make vertical margin easily overridable by other
-     styles with a lower specifity. */
   margin-left: -.375rem;
   margin-right: -.375rem;
   padding:0;
@@ -372,9 +364,6 @@ border-left: 2px solid #a8a5be;
   .showcase-item:nth-last-child(3n+2):first-child,
   .showcase-item:nth-last-child(3n+2):first-child + .showcase-item, .showcase-item:nth-last-child(3n+1):first-child,
   .showcase-item:nth-last-child(3n+1):first-child ~ .showcase-item:nth-child(-n+4) {
-    /* x = items
-       When x % 3 = 2, select first and second item:
-       When x % 3 = 1, select first 4 items: */
     width: 50%;
   }
 }
@@ -408,7 +397,6 @@ border-left: 2px solid #a8a5be;
   text-align: center;
   width: 100%;
   padding: 0 1.5rem;
-  /* Vertically center the caption */
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -429,15 +417,9 @@ border-left: 2px solid #a8a5be;
 
 @media (any-hover: none) {
   .showcase-caption {
-    /* The media query, enclosing these rules matches only
-       touch-screen devices that do not support hover due
-       to the lack of a pointing device like a mouse.
-       It does not work in all mobile browsers, but
-       progressively enhances the experience on supported
-       devices. Tested in Safari (iOS) 9.3 */
+
     opacity: 1.0;
-    /* Reset will-change property to keep it from eating
-       up unneccessary resources on touch-only devices */
+
     will-change: auto;
   }
   .showcase-title {
