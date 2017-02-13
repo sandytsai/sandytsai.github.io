@@ -301,8 +301,8 @@ h1 + .intro {
 }
 
 .grid.gutter-1 {
-  margin-left: -.375rem;
-  margin-right: -.375rem;
+  margin-left: -1.375rem;
+  margin-right: -1.375rem;
   padding:0;
 }
 
@@ -497,6 +497,7 @@ font-weight: 700;
 
 /*phone*/
 @media all and (max-width: 30em) {
+
   html {
     font-size: 1.25em;
   }
@@ -521,7 +522,7 @@ font-weight: 700;
   width:100%;
   display:block;
   float:none;
-  padding:1em;
+  padding:2em;
 }
 
 .container {
@@ -555,6 +556,33 @@ font-weight: 700;
 }
 }
 
+@media all and (min-width: 30em) {
+  .wrap:not(.wide) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+    .project-content{
+      background: #ffffff;
+      margin: 3rem 1.5rem 0 1.5rem;
+      padding-top: 2.25rem;
+      padding-bottom: 3rem;
+    }
+
+
+    .projects-section {
+      background: #ffffff;
+      margin: 0rem 1.5rem 0rem 1.5rem;
+      padding: .75rem 0.25rem 0;
+    }
+
+    .showcase-item {
+      width: 50%;
+    }
+
+  }
+}
+
 @media all and (min-width: 31.5em) {
   .wrap:not(.wide) {
     padding-left: 1.5rem;
@@ -562,15 +590,11 @@ font-weight: 700;
   }
 }
 
-@media all and (min-width: 38em) {
+@media all and (min-width: 60em) {
   .showcase-item {
     width: 33.33%;
   }
-  .showcase-item:nth-last-child(3n+2):first-child,
-  .showcase-item:nth-last-child(3n+2):first-child + .showcase-item, .showcase-item:nth-last-child(3n+1):first-child,
-  .showcase-item:nth-last-child(3n+1):first-child ~ .showcase-item:nth-child(-n+4) {
-    width: 50%;
-  }
+
 }
 
 @media all and (min-width: 38.25em) {
