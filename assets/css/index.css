@@ -611,6 +611,12 @@ font-weight: 700;
     width: 33.33%;
   }
 
+  .thankyou {
+    width:25rem;
+    height:auto;
+    margin-top: 5rem;
+  }
+
   .textfloat {
     padding:0;
   }
