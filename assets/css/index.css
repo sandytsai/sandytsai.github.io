@@ -163,7 +163,7 @@ figcaption {
 }
 
 .containerprocess {
-  height:250px;
+  height:auto;
   width:100%;
   line-height:1.5em;
   text-align:center;
@@ -614,7 +614,7 @@ font-weight: 700;
   .thankyou {
     width:25rem;
     height:auto;
-    margin-top: 5rem;
+    margin-top: 5em;
   }
 
   .textfloat {
