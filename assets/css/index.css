@@ -438,16 +438,22 @@ figcaption {
 
 /*no hover for device*/
 @media (any-hover: none) {
-  .showcase-caption {
-    opacity: 1.0;
-    will-change: auto;
+    
+.showcase-caption {
+opacity: 1.0;
+ will-change: auto;
   }
-  .showcase-title {
-    font-size: .85em;
+.showcase-title {
+font-size: .85em;
   }
     
-    .showcase-caption {
-        background: rgba(163, 234, 223, 0.85);
+.showcase-caption {
+background: rgba(255, 255, 255, 0.85);
+border-bottom-color: rgb(255, 235, 228);
+    }
+    
+.showcase-title {
+font-size:2em;
     }
 }
 
@@ -497,10 +503,7 @@ figcaption {
   html {
     font-size: 1.25em;
   }
-    
-    .showcase-caption {
-        background: rgba(163, 234, 223, 0.85);
-    }
+
 
   .project-content{
     background: #ffffff;
