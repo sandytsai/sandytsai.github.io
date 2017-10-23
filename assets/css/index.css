@@ -441,20 +441,11 @@ figcaption {
     
 .showcase-caption {
 opacity: 1.0;
- will-change: auto;
-  }
-.showcase-title {
-font-size: .85em;
-  }
-    
-.showcase-caption {
+will-change: auto;
 background: rgba(255, 255, 255, 0.85);
 border-bottom-color: rgb(255, 235, 228);
-    }
-    
-.showcase-title {
-font-size:2em;
-    }
+  }
+        
 }
 
  /*all except phone size*/
