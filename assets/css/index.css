@@ -445,6 +445,10 @@ figcaption {
   .showcase-title {
     font-size: .85em;
   }
+    
+    .showcase-caption {
+        background: rgba(163, 234, 223, 0.85);
+    }
 }
 
  /*all except phone size*/
@@ -493,6 +497,10 @@ figcaption {
   html {
     font-size: 1.25em;
   }
+    
+    .showcase-caption {
+        background: rgba(163, 234, 223, 0.85);
+    }
 
   .project-content{
     background: #ffffff;
