@@ -443,7 +443,7 @@ figcaption {
 opacity: 1.0;
 will-change: auto;
 background: rgba(255, 255, 255, 0.85);
-border-bottom-color: rgb(255, 235, 228);
+border-bottom-color: #707070 solid 2px;
   }
         
 }
