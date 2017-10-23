@@ -445,6 +445,10 @@ will-change: auto;
 background: rgba(255, 255, 255, 0.85);
 border-bottom-color: #707070 solid 2px;
   }
+    
+    .projects-section {
+        margin:auto;
+    }
         
 }
 
