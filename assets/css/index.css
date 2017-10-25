@@ -93,7 +93,7 @@ footer, header, main, menu, nav, section, summary {
 
 /*type*/
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 font-family: 'Montserrat', sans-serif;
 font-variant-caps:all-small-caps;
   font-weight: 100;
@@ -104,13 +104,21 @@ h1 {
   font-size: 1.5rem;
   line-height: 1.25;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+    letter-spacing:.05em;
+}
+
+h2 {
+    font-size:1em;
+    font-weight:100;
+    margin-bottom:.5em;
+    letter-spacing:.1em;
 }
 
 h4 {
   font-size: 1em;
   font-variant-caps:all-small-caps;
-  letter-spacing:.25em;
+  letter-spacing:.1em;
   margin:3em auto .5em auto;
   padding:0;
     text-align:center;
