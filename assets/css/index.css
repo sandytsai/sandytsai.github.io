@@ -97,13 +97,13 @@ h1, h2, h3, h4 {
 font-family: 'Montserrat', sans-serif;
 font-variant-caps:all-small-caps;
   font-weight: 100;
+    text-align:left;
 }
 
 h1 {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  text-align: center;
   margin-bottom: 0;
     letter-spacing:.05em;
 }
@@ -111,6 +111,7 @@ h1 {
 h2 {
     font-size:1em;
     font-weight:100;
+    margin-top:.5em;
     margin-bottom:.5em;
     letter-spacing:.1em;
 }
@@ -121,7 +122,6 @@ h4 {
   letter-spacing:.1em;
   margin:3em auto .5em auto;
   padding:0;
-    text-align:center;
 }
 
 a {
@@ -198,10 +198,12 @@ figcaption {
   margin:0 auto 0 auto;
 }
 
-.floatright {
-  float:right;
-  width:50%;
-  height:auto;
+.intro {
+  margin-bottom: 2rem;
+}
+
+.label {
+    font-weight:700;
 }
 
 .imgtitle {
@@ -220,6 +222,7 @@ figcaption {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+    text-align:left;
 }
 
 .containerprocess {
@@ -253,6 +256,7 @@ figcaption {
   margin:0 auto 0 auto;
   text-align:center;
   padding:0 auto 0 auto;
+    text-align:left;
 }
 
 .prototype {
@@ -269,13 +273,7 @@ figcaption {
 }
 
 
-.intro {
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.125rem;
-  margin-bottom: 3rem;
-  font-family:"Domine", Georgia, serif;
-}
+
 
 @supports (-webkit-overflow-scrolling: touch) {
   .text pre > code {
@@ -321,6 +319,7 @@ figcaption {
   -webkit-transition: .25s opacity;
   transition: .25s opacity;
   will-change: opacity;
+
 }
 
 .showcase-title {
@@ -332,9 +331,24 @@ figcaption {
   position: absolute;
     line-height:1em;
     font-family:"Montserrat", sans-serif;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+      top: 40%;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+
+.showcase-type {
+    margin-bottom: 0;
+  text-align: center;
+  text-align: center;
+  width: 100%;
+  padding: 0 1.5rem;
+  position: absolute;
+    line-height:1em;
+    font-family:"Montserrat", sans-serif;
+    font-size:.8em;
+    bottom: 35%;
+      -webkit-transform: translateY(-35%);
+          transform: translateY(-35%);
 }
 
 .showcase-image {
@@ -384,7 +398,6 @@ figcaption {
 
 .menu {
   text-align: center;
-  font-weight: 500;
   display:block;
   margin:2rem auto 0 auto;
   width:100%;
@@ -392,6 +405,8 @@ figcaption {
     font-variant:small-caps;
     letter-spacing:.3em;
   font-size:.75em;
+    position:relative;
+    left:.8em;
 }
 
 .menu-item {
@@ -403,7 +418,6 @@ figcaption {
   content: "   ";
   display: inline-block;
   font-size: .75em;
-  padding: 0 .2em;
   color: #a8a5be;
 }
 
