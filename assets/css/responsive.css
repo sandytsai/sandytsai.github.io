@@ -1,0 +1,215 @@
+/*no hover for device*/
+@media (any-hover: none) {
+    
+.showcase-caption {
+opacity: 1.0;
+will-change: auto;
+background: rgba(255, 255, 255, 0.85);
+border-bottom-color: #707070 solid 2px;
+  }
+    
+    .projects-section {
+        margin:auto;
+    }
+        
+}
+
+ /*all except phone size*/
+@media all and (min-width: 30em) {
+    
+    .wrap {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .wrap.wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .wrap:not(.wide) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .textfloat {
+    padding:2.5rem;
+  }
+
+    .project-content{
+      background: #ffffff;
+      padding:.75rem .75rem 3rem .75rem;
+        max-width:1200px;
+        width:95%;
+        margin:auto;
+    }
+
+
+    .projects-section {
+      background: #ffffff;
+      padding: .75rem 0.25rem 0;
+    max-width:1200px;
+        display:block;
+        margin:auto;
+        width:95%;
+    }
+
+  }
+
+
+
+/*phone*/
+@media all and (max-width: 30em) {
+
+  html {
+    font-size: 1.25em;
+  }
+
+
+  .project-content{
+    background: #ffffff;
+    margin: 0em 0 3em 0;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+    width:100%;
+  }
+
+  .projects-section {
+    background: #ffffff;
+    margin: 0;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width:100%;
+  }
+    
+    .textcontainer {
+        width:80%;
+    }
+
+.showcase-item {
+  margin:0;
+}
+
+.branding {
+  margin-top:1.5em;
+}
+    
+.branding img {
+    width:11em;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+.wrap.wide {
+  padding:0;
+}
+
+.wrap {
+  padding:0;
+}
+    
+.thankyou {
+    width:20em;
+    height:auto;
+    margin-top: 5em;
+    margin-bottom:5em;
+  }
+    
+}
+
+/*phone screenshots*/
+
+@media all and (max-width: 45em) {
+
+.imgfloat {
+  width:100%;
+  clear:both;
+  display:block;
+  float:left;
+  margin:2em 0 2.5em 0;
+  height:auto;
+}
+
+.textfloat {
+  width:100%;
+  float:left;
+  margin:0rem auto 0em auto;
+  padding:0 2rem 0 2rem;
+  text-align:left;
+top:50%;
+  -webkit-transform: translateY(-0%);
+  -ms-transform: translateY(-0%);
+  transform: translateY(-0%);
+}
+
+    
+    .projectinfo {
+        width:80%;
+        margin:2em auto 1em auto;
+        clear:both;
+        float:none;
+        height:auto;
+        margin-top:2em;
+    }
+    
+    .projectintro {
+        width:80%;
+        float:none;
+        margin:0 auto 0 auto;
+        display:block;
+        clear:both;
+        height:auto;
+        
+    }
+
+.container {
+  display:block;
+  height:auto;
+}
+}
+
+ /*tablet*/
+@media all and (min-width: 40em) {
+
+.showcase-item {
+  width: 50%;
+}
+    
+.thankyou {
+    margin-top: 10em;
+    margin-bottom:5em;
+  }
+}
+
+ 
+/*delete??*/
+@media all and (min-width: 31.5em) {
+  .wrap:not(.wide) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+
+@media all and (min-width: 56em) {
+  .header {
+    padding-top: 2.5rem;
+    padding-bottom: 0rem;
+      
+  }
+      .showcase-item {
+    width: 33.33%;
+  }
+
+  .thankyou {
+    width:25rem;
+    height:auto;
+    margin-top: 10em;
+    margin-bottom:10em;
+  }
+
+  .textfloat {
+    padding:0;
+  }
+
+}

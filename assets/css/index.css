@@ -13,7 +13,7 @@
 html {
   background: #FFEBE4;
   color: #707070;
-  font: normal 400 1.5em/1.5 "Assistant", Georgia, serif;
+  font: normal 400 1.5em/1.5 "Lato", Arial, serif;
   font-weight:300;
 
   overflow-y: scroll;
@@ -84,7 +84,6 @@ footer, header, main, menu, nav, section, summary {
   padding-right: .75rem;
   max-width: 36rem;
   font-size:.85em;
-  text-align:center;
 }
 
 .wrap.wide {
@@ -104,16 +103,17 @@ h1 {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  margin-bottom: 0;
-    letter-spacing:.05em;
+  margin-bottom: .5em;
+    font-family:'Lato';
+    font-variant-caps:normal;
 }
 
 h2 {
-    font-size:1em;
-    font-weight:100;
-    margin-top:.5em;
-    margin-bottom:.5em;
-    letter-spacing:.1em;
+    font-size:.9em;
+    font-weight:400;
+    margin-top:0em;
+    font-family:'Lato';
+    font-variant-caps:normal;
 }
 
 h4 {
@@ -148,7 +148,7 @@ mark {
     width:100%;
     height:auto;
     float:left;
-    margin:0 0 2em 0;
+    margin:0 0 5em 0;
 }
 
 img {
@@ -174,6 +174,7 @@ figcaption {
   height:500px;
   width:100%;
   margin-top:3em;
+    margin-bottom:5em;
 }
 
 .projectimg {
@@ -185,13 +186,13 @@ figcaption {
 }
 
 
-.floatleft {
+.imgfloat {
   float:left;
   width:50%;
   height:100%;
 }
 
-.floatleft img {
+.imgfloat img {
   height:500px;
   width:auto;
   display:block;
@@ -202,26 +203,53 @@ figcaption {
   margin-bottom: 2rem;
 }
 
-.label {
-    font-weight:700;
+.aboutintro {
+    margin-top:1em;
+    font-size:1.2em;
 }
 
-.imgtitle {
-  display:block;
-  text-align:left;
-  margin:0 auto .5em auto;
+.abouttitle {
+    font-size:2.5em;
+    font-family:'Lato';
+    font-variant-caps:normal;
+    margin-top:2em;
+    
 }
+
+.label {
+    margin-bottom:1em;
+}
+
 
 .textfloat {
   width:50%;
   float:left;
-  padding:0;
   position: relative;
     text-align:center;
   top:50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+    text-align:left;
+}
+
+.flexible_container {
+height:auto;
+  width:100%;
+  margin-top:0em;
+    margin-bottom:0em;
+}
+
+.projectintro {
+  width:50%;
+  float:left;
+    text-align:left;
+    padding:0 4em 0 0;
+}
+
+.projectinfo {
+  width:40%;
+  float:right;
     text-align:left;
 }
 
@@ -252,7 +280,7 @@ figcaption {
 }
 
 .textcontainer {
-  width:80%;
+  width:100%;
   margin:0 auto 0 auto;
   text-align:center;
   padding:0 auto 0 auto;
@@ -330,25 +358,26 @@ figcaption {
   padding: 0 1.5rem;
   position: absolute;
     line-height:1em;
-    font-family:"Montserrat", sans-serif;
-      top: 40%;
-  -webkit-transform: translateY(-40%);
-          transform: translateY(-40%);
+    font-family:"Lato", sans-serif;
+    font-variant-caps: normal;
+    font-weight:400;
+    line-height:1.3em;
+      top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .showcase-type {
     margin-bottom: 0;
-  text-align: center;
+    margin-top:1em;
   text-align: center;
   width: 100%;
   padding: 0 1.5rem;
-  position: absolute;
+    font-variant-caps: all-small-caps;
     line-height:1em;
     font-family:"Montserrat", sans-serif;
     font-size:.8em;
-    bottom: 35%;
-      -webkit-transform: translateY(-35%);
-          transform: translateY(-35%);
+
 }
 
 .showcase-image {
@@ -452,199 +481,8 @@ figcaption {
 
 .footer-copyright {
   display: block;
-  font-family:"Assistant", sans-serif;
+  font-family:"Lato", sans-serif;
   margin-top:1em;
   font-size:.7em;
-
-}
-
-/*no hover for device*/
-@media (any-hover: none) {
-    
-.showcase-caption {
-opacity: 1.0;
-will-change: auto;
-background: rgba(255, 255, 255, 0.85);
-border-bottom-color: #707070 solid 2px;
-  }
-    
-    .projects-section {
-        margin:auto;
-    }
-        
-}
-
- /*all except phone size*/
-@media all and (min-width: 30em) {
-    
-    .wrap {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .wrap.wide {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .wrap:not(.wide) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .textfloat {
-    padding:2.5rem;
-  }
-
-    .project-content{
-      background: #ffffff;
-      padding:.75rem .75rem 3rem .75rem;
-        max-width:1200px;
-        width:95%;
-        margin:auto;
-    }
-
-
-    .projects-section {
-      background: #ffffff;
-      padding: .75rem 0.25rem 0;
-    max-width:1200px;
-        display:block;
-        margin:auto;
-        width:95%;
-    }
-
-  }
-
-/*phone*/
-@media all and (max-width: 30em) {
-
-  html {
-    font-size: 1.25em;
-  }
-
-
-  .project-content{
-    background: #ffffff;
-    margin: 0em 0 3em 0;
-    padding-top: 0rem;
-    padding-bottom: 3rem;
-    width:100%;
-  }
-
-  .projects-section {
-    background: #ffffff;
-    margin: 0;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    width:100%;
-  }
-    
-    .textcontainer {
-        width:80%;
-    }
-
-.showcase-item {
-  margin:0;
-}
-
-.branding {
-  margin-top:1.5em;
-}
-    
-.branding img {
-    width:11em;
-  height:auto;
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-}
-
-.wrap.wide {
-  padding:0;
-}
-
-.wrap {
-  padding:0;
-}
-    
-.thankyou {
-    width:20em;
-    height:auto;
-    margin-top: 5em;
-    margin-bottom:5em;
-  }
-    
-}
-
-/*phone screenshots*/
-
-@media all and (max-width: 45em) {
-
-.floatleft {
-  width:100%;
-  clear:both;
-  display:block;
-  float:left;
-  margin-bottom:4em;
-    margin-top:2em;
-  height:auto;
-}
-
-.textfloat {
-  width:100%;
-  float:left;
-  margin:3rem auto 0 auto;
-  padding:3rem;
-  text-align:center;
-}
-
-.container {
-  display:block;
-  height:auto;
-}
-}
-
- /*tablet*/
-@media all and (min-width: 40em) {
-
-.showcase-item {
-  width: 50%;
-}
-    
-.thankyou {
-    margin-top: 5em;
-    margin-bottom:5em;
-  }
-}
-
- 
-/*delete??*/
-@media all and (min-width: 31.5em) {
-  .wrap:not(.wide) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-
-
-@media all and (min-width: 56em) {
-  .header {
-    padding-top: 2.5rem;
-    padding-bottom: 0rem;
-      
-  }
-      .showcase-item {
-    width: 33.33%;
-  }
-
-  .thankyou {
-    width:20rem;
-    height:auto;
-    margin-top: 10em;
-    margin-bottom:10em;
-  }
-
-  .textfloat {
-    padding:0;
-  }
 
 }
