@@ -13,6 +13,7 @@
 html {
   background: #FFEBE4;
   color: #707070;
+    color: #656565;
   font: normal 400 1.5em/1.5 "Lato", Arial, serif;
   font-weight:300;
 
@@ -144,11 +145,9 @@ mark {
 
 /*images*/
 
-.about_pic {
-    width:100%;
-    height:auto;
-    float:left;
-    margin:0 0 5em 0;
+.thankyou {
+    display:block;
+margin:auto;
 }
 
 img {
@@ -161,11 +160,6 @@ img {
   width:40%;
   margin:0 auto 0 auto;
   padding:.5em;
-}
-
-figcaption {
-  font-size: .75rem;
-  line-height: 1.5rem;
 }
 
 /*projectcontent*/
@@ -213,7 +207,7 @@ figcaption {
     font-size:2.5em;
     font-family:'Lato';
     font-variant-caps:normal;
-    margin-top:2em;
+    margin-top:0em;
     
 }
 
