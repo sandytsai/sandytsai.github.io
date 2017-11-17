@@ -2,10 +2,9 @@
 @media (any-hover: none) {
     
 .showcase-caption {
-opacity: 1.0;
+opacity: 0;
 will-change: auto;
 background: rgba(255, 255, 255, 0.85);
-border-bottom-color: #707070 solid 2px;
   }
     
     .projects-section {
@@ -109,6 +108,7 @@ border-bottom-color: #707070 solid 2px;
 
 .wrap.wide {
   padding:0;
+    margin:0;
     width:100%;
 }
 
