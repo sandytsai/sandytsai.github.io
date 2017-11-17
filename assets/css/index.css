@@ -17,7 +17,6 @@ html {
   font: normal 400 1.5em/1.5 "Lato", Arial, serif;
   font-weight:300;
 
-  overflow-y: scroll;
 
   cursor: default;
   position: relative;
