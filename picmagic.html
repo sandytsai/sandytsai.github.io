@@ -12,6 +12,8 @@
         <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
 
   <link rel="icon" type="image/ico" href="assets/images/favicon.png"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,400,700,900" rel="stylesheet">
     
 <script>
@@ -33,18 +35,20 @@
       <div class="branding column">
         <a href="index.html" rel="home"><img src="assets/images/header.png" /></a>
       </div>
-
- <nav class="navigation column" role="navigation">
+      <nav class="navigation column" role="navigation">
         <ul class="menu">
 
           <li class="menu-item">
-            <a href="index.html">work</a>
+            <a href="index.html">digital</a>
+          </li>
+            <li class="menu-item">
+            <a href="about.html">physical</a>
           </li>
           <li class="menu-item">
             <a href="about.html">about</a>
           </li>
             <li class="menu-item">
-            <a href="assets/files/resume.pdf" target="_blank">resume</a>
+            <a href="assets/files/resume.pdf" target="_blank">r&Eacute;sum&Eacute;</a>
           </li>
         </ul>
       </nav>
@@ -55,77 +59,125 @@
 
 <main class="main" role="main">
 <section class="project-content">
+    
+    <img src="projects/3-picmagic/header.jpg" class="headerimg" alt="picmagic" />
+
 
   <div class="text wrap">
-
-    <div class="container">
-      <div class="imgfloat">
-      <img src="projects/3-picmagic/picmagic_1.jpg" alt="picmagic_1" />
-    </div>
-    <div class="textfloat">
+      
       <h1>PicMagic</h1>
-        <p class="intro">A mobile app that automatically applies frames and masks to your selfies
-    <br /><br />
-    Currently available for free on the <a href="https://itunes.apple.com/us/app/picmagic-instant-holiday-photos/id1060429767?mt=8" target="blank">iOS App Store</a></p>
+          
+        <div class="flexible_container">
+      <div class="projectintro">
+           PicMagic is a mobile app I worked on while I was at Cardinal Blue Software. Cardinal Blue Software develops PicCollage, a creative photo app that lets you create collages using images and in-app visual content. Taking a step further from PicCollage, we wanted to make digital collaging even more automated and fun. PicMagic eliminates the content browsing and photo editing process from the collage making task flow, and users see random masks and filters applied to their photos. We launched the app and it is currently available for free on the <a href="https://itunes.apple.com/us/app/picmagic-instant-holiday-photos/id1060429767?mt=8" target="blank">iOS App Store</a>.
+          
+      </div>
+          
+          <div class="projectinfo">
+          <h2>Team</h2>
+              <p class="label">Tyler Barth (Developer), Nana Chiang (PM)</p>
+              <h2>Role</h2>
+              <p class="label">UX, UI, branding</p>
+          <h2>Process</h2>
+              <p class="label">User flow, wireframe, visual design, usability</p>
+      </div>
+                
+      </div>
+      <p class="cf"></p>
+      
+              <hr class="sectionbreak1">
 
-    
-    </div>
-    </div>
-    <p class="cf"></p>
 
     <div class="textcontainer">
-    <h4>mobile app for PicCollage</h4>
-    I worked on PicMagic when I was at PicCollage. <a href="https://itunes.apple.com/us/app/pic-collage-photo-collage/id448639966?mt=8" target="_blank">PicCollage</a>is a mobile app developed by Cardinal Blue Software with over 17 million monthly active users. PicCollage lets users create collages using any images and in-app visual content.<br /><br />
-</div>
-    <h4>PicCollage</h4>
-    <img src="projects/3-picmagic/screenshots.jpg" alt="screenshots" />
-<div class="textcontainer">
-  <h4>A new way to add content</h4>
-    With the advent of apps like Snapchat, we realized that users desire a way to personalize their photos automatically and share them. At Cardinal Blue, we wanted to eliminate the content browsing and photo editing process from the collage making task flow.
+        
+         <div class="container">
+      <div class="imgfloat">
 
-    <h4>Solution</h4>
-    PicMagic uses facial recognition technology to automatically apply fun masks, themes, and filters to eliminate the manual need to place masks themselves. It also adds an element of surprise of making the mask and theme random each time.
+        <video autoplay loop webkit-playinline height="500px">
+          <source src="projects/3-picmagic/PicMagic-1.mp4" type="video/mp4">
+          <source src="projects/15-hermes/Hermes_Final_2.webm" type="video/webm">
+        </video>
 
-    <h4>Camera-First</h4>
-    The app opens to a front-facing camera mode with the prompt "Take a selfie" so that the user is prompted to take a selfie and see what the app does. This eliminates a user's effort to read instructions and teaches them how to use the app by forcing them to use it.
+      </div>
+      <p class="textfloat">
+      When I joined this project, the team already had a working prototype developed by our engineer. However, the original design took too many steps for users to see the effect on their own photos. The app starts with a dummy photo, and you click on the gallery icon to choose a photo from your library, and another click to access your own camera.
+      </p>
+      </div>
+      <p class="cf"></p>
+        
+                              <hr class="sectionbreak2">
 
-    <h4>User Persona: Tiffany</h4>
-    "I like creating collages and adding fun stickers to photos I take with my friends."
-    </div><br />
+
+  <h4>Challenge</h4>
+        <p class="p_container">I was tasked with coming up with a new user flow that decreases the time to discover what the app does and give users a call-to-action to use their own photos. </p>
+        
+                      <hr class="sectionbreak2">
+        
+
+        
+       
+        
+         
+        
+
+    <h4>Camera-First Solution</h4>
+        <p class="p_container">I sketched a new flow and wireframe where the app opens to a front-facing camera mode with the prompt "Take a selfie" so that the user is prompted to take a selfie and see what the app does. This eliminates a user's effort to read instructions and teaches them how to use the app by using it on their own photos.</p>
+
+    </div>
+      <hr class="sectionbreak2">
+      
+       <h4>New Wireframe</h4>
+    <img src="projects/3-picmagic/sketch_1.jpg" alt="sketch_1" />
+        
+        <hr class="sectionbreak2">
+    
 
     <div class="container">
       <div class="imgfloat">
       <img src="projects/3-picmagic/picmagic_2.gif" alt="picmagic_2" />
       </div>
       <p class="textfloat">
-    Tiffany wants to take a selfie with her friend and uses PicMagic. She's delighted to see stickers appear on their faces.
+    Users open the app and see a front-facing camera prompting them to take a selfie. Once they take a photo, they'll see masks appear on their faces and a frame around the photo. They can try different themes by swiping the screen.
     </p>
     </div>
     <p class="cf"></p>
+      <hr class="sectionbreak2">
 
     <div class="container">
       <div class="imgfloat">
       <img src="projects/3-picmagic/picmagic_3.gif" alt="picmagic_3" />
       </div>
       <p class="textfloat">
-    She finds a theme she likes and saves the photo to her phone.
+    Saving or sharing the photo is intuitive and easy.
     </p>
     </div>
     <p class="cf"></p>
+      
+      <hr class="sectionbreak2">
+      
+            <h4>User Test Insights</h4>
+      <div class="textbox400">
+        <div class="two_boxes">
+            <h5>on-boarding</h5>
+            <p class="font_small">We tested both versions of the app, one with the dummy photo and one with the camera-first solution. While users were able to follow the instructions with the dummy photo, it took them longer to realize what the app does. The camera-first solution let users discover the app more quickly and intuitively.</p>
+      
+      </div>
+            
+    
+            
+         <div class="two_boxes">
 
+          <h5>control vs. automation</h5>
+             <p class="font_small">Users were delighted to be surprised with masks, but wanted to adjust them afterwards. Even though the element of randomness and surprise was great, users still wish to have some control over what they are making. Some balance between automation and sense of control is required.</p>
+             </div>
+            </div>
+      
+      
+<hr class="sectionbreak2">
     <div class="textcontainer">
-    <h4>Learnings</h4>
-    Designing the user flow for this app taught me about creating a visible mental model for the user. This app does not have a "home" page, but rather a circular flow that returns to the camera. I had to pay close attention to how a user knows "where" they are within the app and create a navigation system that makes logical sense according to a real physical space.<br /><br />
-
-    Lastly, I realized that users still wish to have some control over what they are making, so I believe some balance  between automation and sense of control is required. Even if they enjoy automatic placement of stickers, most users wish they were able to adjust their placement.
+    <h4>What I learned</h4>
+    <p class="p_container">Designing the user flow for this app taught me about creating a visible mental model for the user. I had to pay close attention to how a user knows "where" they are within the app and create a navigation system that makes logical sense according to a real physical space.</p>
     </div>
-
-    <h4>Wireframe</h4>
-    <img src="projects/3-picmagic/sketch_1.jpg" alt="sketch_1" />
-    <h4>Process</h4>
-    <div class="textcontainer containerprocess">
-    interviews, userflow, wireframe, visual design, testing<br /><br />
-    I worked closely with a developer and product manager to develop this app. I was in charge of creating the user flow, interface, and visual design, but worked closely with all team members to get feedback for designs. I worked with the developer to implement the UI design. I designed the app icon, which had many versions, discussions, and tests before the current version was selected. Screens were prototyped using <a href="http://sketchapp.com" target="blank">Sketch</a> and Photoshop.</div>
 
 
   </div>
@@ -134,30 +186,41 @@
 </main>
 
 <footer class="footer cf" role="contentinfo">
-  <div class="wrap wide">
+    <div class="wrap wide">
+        
+        <ul class="social-buttons">
+            <li class="social-item"><a href="mailto:sandytsa@uw.edu"><i class="fas fa-envelope"></i></a></li>
+            <li class="social-item"><a href="https://instagram.com/sandztsai" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-item"><a href="https://www.pinterest.com/stsai/"><i class="fab fa-pinterest"></i></a></li>
+            <li class="social-item"><a href="https://www.linkedin.com/in/sandystsai/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-item"><a href="https://github.com/sandytsai"><i class="fab fa-github"></i></a></li> 
+        </ul>
 
-<nav class="navigation column" role="navigation">
+  <nav class="navigation column" role="navigation">
         <ul class="menu">
 
           <li class="menu-item">
-            <a href="index.html">work</a>
+            <a href="index.html">digital</a>
+          </li>
+            <li class="menu-item">
+            <a href="about.html">physical</a>
           </li>
           <li class="menu-item">
             <a href="about.html">about</a>
           </li>
             <li class="menu-item">
-            <a href="assets/files/resume.pdf" target="_blank">resume</a>
+            <a href="assets/files/resume.pdf" target="_blank">r&Eacute;sum&Eacute;</a>
           </li>
         </ul>
       </nav>
 
-    <p class="footer-copyright">
-© 2017 Sandy Tsai
-    </p>
+      <p class="footer-copyright">
+All work © 2017 Sandy Tsai
+      </p>
 
 
-  </div>
-</footer>
+    </div>
+  </footer>
 
 </body>
 </html>

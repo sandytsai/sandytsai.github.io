@@ -53,11 +53,127 @@ background: rgba(255, 255, 255, 0.85);
 
   }
 
+/*phone screenshots*/
+
+@media all and (max-width: 45em) {
+    
+      html {
+    font-size: 1.25em;
+  }
+    
+    .three_boxes {
+        float:none;
+        width:60%;
+        display:block;
+        margin:0 auto 0 auto;   
+    }
+    
+    .two_boxes {
+        float:none;
+        width:100%;
+        padding:0 0 1.5em 0;
+    }
+    
+    .textbox400.bluebg {
+        height:auto;
+        padding:1.5em 1.5em .5em 1.5em;
+    }
+    
+    .two_boxes_bluel {
+        float:none;
+        width:100%;
+    }
+    .two_boxes_bluer {
+        float:none;
+        width:100%;
+        margin:0;
+    }
+    
+    
+    
+    .three_boxes h4 {
+        margin:1em 0 .5em 0;
+    }
+    
+    
+    .flexible_container {
+        padding:0;
+    }
+    
+    .container {
+        height:auto;
+    }
+
+.imgfloat {
+  width:100%;
+  display:block;
+  float:none;
+  margin:2em 0 -2em 0;
+  height:auto;
+}
+
+.textfloat {
+  width:90%;
+  display:block;
+    float:none;
+  margin:0rem auto -3em auto;
+  text-align:center;
+top:0%;
+  -webkit-transform: translateY(-0%);
+  -ms-transform: translateY(-0%);
+  transform: translateY(-0%);
+}
+
+    
+    .projectinfo {
+        width:100%;
+        margin:2em auto 1em auto;
+        clear:both;
+        padding:0;
+        float:none;
+        height:auto;
+        margin-top:2em;
+    }
+    
+    .projectintro {
+        width:100%;
+        float:none;
+        margin:0 auto 0 auto;
+        display:block;
+        clear:both;
+        height:auto;
+        padding:0;
+        
+    }
+    
+    h1 {
+        margin-top:0;
+    }
+    
+    .sectionbreak1{
+    margin:1em 0 2em 0;
+    }
+
+}
 
 
 /*phone*/
 @media all and (max-width: 30em) {
 
+    .p_container {
+        width:100%;
+    }
+    
+       .three_boxes {
+        float:none;
+        width:100%;
+        display:block;
+        margin:0 auto 0 auto;   
+    }
+    
+    .three_boxes h4 {
+        margin:1em 0 .5em 0;
+    }
 
   .project-content{
     background: #ffffff;
@@ -126,62 +242,34 @@ background: rgba(255, 255, 255, 0.85);
 
 .container {
     height:auto;
-    margin:0;
 }
     
-    
-}
-
-/*phone screenshots*/
-
-@media all and (max-width: 45em) {
-    
-      html {
-    font-size: 1.25em;
-  }
-
-.imgfloat {
+    .imgfloat {
   width:100%;
-  clear:both;
   display:block;
-  float:left;
-  margin:2em 0 2.5em 0;
+  float:none;
+  margin:2em 0 1em 0;
   height:auto;
 }
 
+    
+
 .textfloat {
   width:100%;
-  float:left;
-  margin:0rem auto 0em auto;
-  padding:0;
-  text-align:left;
-top:50%;
+  display:block;
+    float:none;
+  margin:0em auto -1em auto;
+  text-align:center;
+top:0%;
   -webkit-transform: translateY(-0%);
   -ms-transform: translateY(-0%);
   transform: translateY(-0%);
 }
-
     
-    .projectinfo {
-        width:80%;
-        margin:2em auto 1em auto;
-        clear:both;
-        float:none;
-        height:auto;
-        margin-top:2em;
-    }
     
-    .projectintro {
-        width:80%;
-        float:none;
-        margin:0 auto 0 auto;
-        display:block;
-        clear:both;
-        height:auto;
-        
-    }
-
 }
+
+
 
  /*tablet*/
 @media all and (min-width: 30em) {

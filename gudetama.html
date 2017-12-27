@@ -12,6 +12,8 @@
     <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
 
 <link rel="icon" type="image/ico" href="assets/images/favicon.png"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,400,700,900" rel="stylesheet">
 
 <script>
@@ -34,20 +36,23 @@ ga('send', 'pageview');
     <a href="index.html" rel="home"><img src="assets/images/header.png" /></a>
   </div>
 
-<nav class="navigation column" role="navigation">
-    <ul class="menu">
+      <nav class="navigation column" role="navigation">
+        <ul class="menu">
 
-      <li class="menu-item">
-        <a href="index.html">work</a>
-      </li>
-      <li class="menu-item">
-        <a href="about.html">about</a>
-      </li>
-        <li class="menu-item">
-        <a href="assets/files/resume.pdf" target="_blank">resume</a>
-      </li>
-    </ul>
-  </nav>
+          <li class="menu-item">
+            <a href="index.html">digital</a>
+          </li>
+            <li class="menu-item">
+            <a href="about.html">physical</a>
+          </li>
+          <li class="menu-item">
+            <a href="about.html">about</a>
+          </li>
+            <li class="menu-item">
+            <a href="assets/files/resume.pdf" target="_blank">r&Eacute;sum&Eacute;</a>
+          </li>
+        </ul>
+      </nav>
 
 </div>
 </header>
@@ -56,49 +61,76 @@ ga('send', 'pageview');
 <main class="main" role="main">
 <section class="project-content">
 
+    <img src="projects/5-gudetama/header.jpg" class="headerimg" alt="gudetama" />
 
 <div class="text wrap">
+    
+    <h1>My Gudetama</h1>
+          
+        <div class="flexible_container">
+      <div class="projectintro">
+           My Gudetama is a mobile app I worked on for a hackathon at Cardinal Blue Software. The theme for our hackathon was to incorporate the characters of Sanrio, our branding partner. We decided to use the Gudetama character as a virtual pet that could be nurtured through a user's physical activity or dietary choices, motivating people into having a healthier lifestyle.
+          
+      </div>
+          
+          <div class="projectinfo">
+          <h2>Team</h2>
+              <p class="label">Morning Kao (PM), Victoria Horng (Visual Design)</p>
+              <h2>Role</h2>
+              <p class="label">UX, UI</p>
+          <h2>Process</h2>
+              <p class="label">2 days to interview, user flow, wireframe, hi-fi prototype</p>
+      </div>
+                
+      </div>
+      <p class="cf"></p>
+      
+              <hr class="sectionbreak1">
 
-<div class="container">
-<div class="imgfloat">
-<img src="projects/5-gudetama/gudetama_1.jpg" alt="gudetama_4" />
-</div>
-<div class="textfloat">
-  <h1>My Gudetama</h1>
-  <p class="intro">A mobile app that encourages users to walk for their virtual pet Gudetama, a popular Sanrio character</p>
-
-</div>
-</div>
-<p class="cf"></p>
 
 <div class="textcontainer">
-<h4>Hackathon Project for Cardinal Blue Software</h4>
-We wanted to create an app that takes advantage of the popular Sanrio character, Gudetama, but actually make it useful for people. We decided to use the character as a virtual pet that could be nurtured through a user's physical activity or dietary choices, motivating people into having a healthier lifestyle.
 
 <h4>User Interview Key Findings</h4>
-Users like to keep track of specific health related activities but generally do not record diets<br /><br />
+<p class="p_container">Users like to keep track of specific health related activities but generally do not record diets<br /><br />
 The average user (doesn't have special health needs) does not like to input data for activities that don't give them a sense of accomplishment (e.g. eating)<br /><br />
-Users prefer apps that can automatically record physical activity without user input, such as typing in information<br /><br />
+Users prefer apps that can automatically record physical activity without user input, such as typing in information<br /><br /></p>
+    
+    <hr class="sectionbreak2">
 
 <h4>Challenges</h4>
-One of the hardest challenges was coming up with a system that could translate a user's daily activity into quantitative rewards. For example, recording meals would be difficult to objectively quantify and we didn't want to depend on users painstakingly inputing lots of data. A user's actions need to be automatically recorded and turned into rewards with a quantitative scale.
+    <p class="p_container">One of the hardest challenges was coming up with a system that could translate a user's daily activity into quantitative rewards. For example, recording meals would be difficult to objectively quantify and we didn't want to depend on users painstakingly inputing lots of data. A user's actions need to be automatically recorded and turned into rewards with a quantitative scale.</p>
+    
 
 <h4>How to influence user behavior?</h4>
-Another challenge was influencing a user's behavior. Instead of just being able to feed your pet, we had to continuously offer new value so that users get hooked into repeatedly using the app. We looked at apps similar to <a href="https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8" target="_blank">Pokemon Go</a>, which motivate users by providing new things to collect. We aimed to create an experience that excites users into collecting items for Gudetama.
+    <p class="p_container">Another challenge was influencing a user's behavior. Instead of just being able to feed your pet, we had to continuously offer new value so that users get hooked into repeatedly using the app. We looked at apps similar to <a href="https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8" target="_blank">Pokemon Go</a>, which motivate users by providing new things to collect. We aimed to create an experience that excites users into collecting items for Gudetama.</p>
 
+    <hr class="sectionbreak2">
+    
 <h4>Goals</h4>
 Track specific user activity<br />
 Translate user activity into quantitative rewards<br />
 Influence user's behavior by creating rewards they want to collect<br />
 Minimize data input for user<br />
+    
+        <hr class="sectionbreak2">
+
+    
+    <h4>Wireframe</h4>
+<img src="projects/5-gudetama/sketch_1.jpg" alt="sketch_1" />
+    
+    <hr class="sectionbreak2">
 
 <h4>Solution</h4>
-We narrowed it down to one activity: walking. This simplifies the activity quantification, allows the user to easily accomplish the goals, and eliminates the need to input data regularly. To influence and quantify a user's behavior, I suggested a coin system where a number of steps will get you a number of coins. These coins can be used to buy collectible goodies for your pet. Based on research of existing apps, earning virtual currency to buy your own goodies can be a strong motivator. Goodies will range from basic to luxurious, so this should motivate users to keep using the app so they can collect increasingly luxurious goodies to see more interactions from Gudetama.
+    <p class="p_container">We narrowed it down to one activity: walking. This simplifies the activity quantification, allows the user to easily accomplish the goals, and eliminates the need to input data regularly. To influence and quantify a user's behavior, I suggested a coin system where a number of steps will get you a number of coins. These coins can be used to buy collectible goodies for your pet. Based on research of existing apps, earning virtual currency to buy your own goodies can be a strong motivator. Goodies will range from basic to luxurious, so this should motivate users to keep using the app so they can collect increasingly luxurious goodies to see more interactions from Gudetama.</p>
+    
+    <hr class="sectionbreak2">
 
 <h4>User Persona: Emily</h4>
-"I love playing mobile app games and I like using apps that let me collect beautiful and cute rewards, giving me a sense of accomplishment."
+    <p class="p_container">"I love playing mobile app games and I like using apps that let me collect beautiful and cute rewards, giving me a sense of accomplishment."</p>
 </div>
 
+    <hr class="sectionbreak2">
+    
 <div class="container">
 <div class="imgfloat">
 <img src="projects/5-gudetama/gudetama_2.gif" alt="gudetama_4" />
@@ -108,6 +140,8 @@ Emily opens My Gudetama and is greeted by the lazy egg, who shows her a tutorial
 </p>
 </div>
 <p class="cf"></p>
+    <hr class="sectionbreak2">
+    
 
 <div class="container">
 <div class="imgfloat">
@@ -118,6 +152,9 @@ She walks 10 steps and completes the tutorial.
 </p>
 </div>
 <p class="cf"></p>
+    
+    <hr class="sectionbreak2">
+    
 
 <div class="container">
 <div class="imgfloat">
@@ -128,20 +165,16 @@ She begins level 1 and starts walking. Once she has enough coins, she decides to
 </p>
 </div>
 <p class="cf"></p>
+    
+    <hr class="sectionbreak2">
+    
 
 <div class="textcontainer">
-<h4>Learnings</h4>
-I gained new understanding of what specific motivations and desires could change behavior. I also learned how to analyze and translate user behavior and data into quantitative systems for the functions of an app. Further work on this app would require a better management system for users to own and use these goodies. Of course, this app would need to be further tested among users.
-</div>
-
-<h4>Wireframe</h4>
-<img src="projects/5-gudetama/sketch_1.jpg" alt="sketch_1" />
-
-
-<div class="textcontainer containerprocess">
-  <h4>Process</h4>
-interviews, define, ideate, wireframes, visual design<br /><br />
-My team pitched, conducted interviews, designed, and presented the app within two days. My team included two designers and two product managers. We worked collaboratively to come up with the user requirements and user flow. The other designer created the Gudetama illustrations, which were derived from existing artwork. I came up with the coin and reward purchase idea and was in charge of the wireframe and designing the user interface. Since our team did not have a developer, we created an interactive prototype using <a href="https://prottapp.com/" target="_blank">Prott</a> for our presentation. For my portfolio, screens were prototyped using <a href="http://sketchapp.com" target="blank">Sketch</a> and Photoshop.
+<h4>What I learned</h4>
+    <p class="p_container">I gained new understanding of what specific motivations and desires could change behavior. I also learned how to analyze and translate user behavior and data into quantitative systems for the functions of an app.</p>
+        
+        <h4>Further Development</h4>
+        <p class="p_container">Further work on this app would require a better management system for users to own and use these goodies.</p>
 </div>
 
 
@@ -152,27 +185,39 @@ My team pitched, conducted interviews, designed, and presented the app within tw
 </main>
 
 <footer class="footer cf" role="contentinfo">
-<div class="wrap wide">
-
+    <div class="wrap wide">
+        
+        <ul class="social-buttons">
+            <li class="social-item"><a href="mailto:sandytsa@uw.edu"><i class="fas fa-envelope"></i></a></li>
+            <li class="social-item"><a href="https://instagram.com/sandztsai" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-item"><a href="https://www.pinterest.com/stsai/"><i class="fab fa-pinterest"></i></a></li>
+            <li class="social-item"><a href="https://www.linkedin.com/in/sandystsai/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-item"><a href="https://github.com/sandytsai"><i class="fab fa-github"></i></a></li> 
+        </ul>
 <nav class="navigation column" role="navigation">
-  <ul class="menu">
+        <ul class="menu">
 
-    <li class="menu-item">
-      <a href="index.html">work</a>
-    </li>
-    <li class="menu-item">
-      <a href="about.html">about</a>
-    </li>
-  </ul>
-</nav>
+          <li class="menu-item">
+            <a href="index.html">digital</a>
+          </li>
+            <li class="menu-item">
+            <a href="about.html">physical</a>
+          </li>
+          <li class="menu-item">
+            <a href="about.html">about</a>
+          </li>
+            <li class="menu-item">
+            <a href="assets/files/resume.pdf" target="_blank">r&Eacute;sum&Eacute;</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">
+All work © 2017 Sandy Tsai
+      </p>
 
-<p class="footer-copyright">
-© 2017 Sandy Tsai
-</p>
 
-
-</div>
-</footer>
+    </div>
+  </footer>
 
 </body>
 </html>

@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/*fonts*/
+
+@font-face {
+    font-family:"Apercu";
+    font-weight: 400;
+    src: url(assets/fonts/Apercu/Apercu-Medium.otf);
+}
+
 
 /*global*/
 
@@ -12,11 +20,9 @@
 
 html {
   background: #FFEBE4;
+    
   color: #707070;
-    color: #656565;
-  font: normal 400 1.5em/1.5 "Lato", Arial, serif;
-  font-weight:300;
-
+  font: normal 300 1.5em/1.5 "Lato", Arial, serif;
   overflow-y: scroll;
   cursor: default;
   position: relative;
@@ -27,9 +33,6 @@ html {
   -webkit-tap-highlight-color: rgba(113, 239, 172, .5);
 }
 
-body {
-  margin-bottom: 4.5rem;
-}
 
 .main {
   padding-top: 1.5rem;
@@ -93,10 +96,9 @@ footer, header, main, menu, nav, section, summary {
 /*type*/
 
 h1, h2, h3, h4 {
-font-family: 'Montserrat', sans-serif;
+font-family: 'Apercu', sans-serif;
 font-variant-caps:all-small-caps;
-  font-weight: 100;
-    text-align:left;
+  font-weight: medium;
 }
 
 h1 {
@@ -104,24 +106,40 @@ h1 {
   font-size: 1.5rem;
   line-height: 1.25;
   margin-bottom: .5em;
+    margin-top:1.5em;
     font-family:'Lato';
     font-variant-caps:normal;
+    color:#000000;
 }
 
 h2 {
-    font-size:.9em;
-    font-weight:400;
+    font-size:.85em;
     margin-top:0em;
-    font-family:'Lato';
-    font-variant-caps:normal;
+    font-family:"Apercu';
+    font-variant-caps:all-small-caps;
+    font-weight:medium;
+    letter-spacing:.2em;
+    color:#000000;
+}
+
+h5 {
+  font-size: .80em;
+  font-variant-caps:all-small-caps;
+  letter-spacing:.2em;
+    color:black;
+  margin:.5em auto .5em auto;
+  padding:0;
+    text-align:center;
 }
 
 h4 {
-  font-size: 1em;
+  font-size: .85em;
   font-variant-caps:all-small-caps;
-  letter-spacing:.1em;
+  letter-spacing:.2em;
+    color:black;
   margin:3em auto .5em auto;
   padding:0;
+    text-align:center;
 }
 
 a {
@@ -144,6 +162,10 @@ mark {
 
 /*images*/
 
+.icon {
+    fill: "#FFFFFF";
+}
+
 .thankyou {
     display:block;
 margin:auto;
@@ -161,16 +183,18 @@ img {
   padding:.5em;
 }
 
-/*projectcontent*/
-
-.container {
-  height:500px;
-  width:100%;
-  margin-top:3em;
-    margin-bottom:5em;
+.personaimg {
+    width:30%;
+    display:block;
+    margin:auto;
+    
 }
 
 .projectimg {
+  margin:.5rem 0 .5rem 0;
+}
+
+.firstimg {
   margin:2rem 0 .5rem 0;
 }
 
@@ -178,6 +202,14 @@ img {
     margin:0 0 3em 0;
 }
 
+/*content elements*/
+
+.container {
+  height:500px;
+  width:100%;
+  margin-top:3em;
+    margin-bottom:1em;
+}
 
 .imgfloat {
   float:left;
@@ -193,13 +225,11 @@ img {
   margin:0 auto 0 auto;
 }
 
-.intro {
-  margin-bottom: 2rem;
-}
-
 .aboutintro {
     margin-top:1em;
     font-size:1.2em;
+    color:#707070;
+    padding:0 3em;
 }
 
 .abouttitle {
@@ -212,14 +242,58 @@ img {
 
 .label {
     margin-bottom:1em;
+    font-size:.85em;
 }
 
+.textbox400 {
+    width:100%;
+    height:400px;
+    padding:2em 3em 1em 3em;
+    margin:1em 0 3em 0;
+    background-color:#FFEBE4;
+}
+
+.bluebg {
+    background-color:#e7eef8;
+}
+
+.three_boxes {
+    width:33%;
+    float:left;
+    padding:.7em;
+}
+
+.two_boxes {
+    width:50%;
+    float:left;
+    padding:1em;
+}
+
+.two_boxes_bluer {
+    width:48%;
+    float:right;
+    padding:1.5em 0 2em 0;
+    background-color:#e7eef8;
+    margin:2em 0 2em 0;
+}
+
+.two_boxes_bluel {
+    width:48%;
+    float:left;
+    padding:1.5em 0 2em 0;
+    background-color:#e7eef8;
+    margin:2em 0 2em 0;
+}
+
+.font_small {
+    font-size:.9em;
+    text-align:center;
+}
 
 .textfloat {
   width:50%;
   float:left;
   position: relative;
-    text-align:center;
   top:50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -230,42 +304,36 @@ img {
 .flexible_container {
 height:auto;
   width:100%;
-  margin-top:0em;
-    margin-bottom:0em;
+  margin:0 auto 0 auto;
+}
+
+.sectionbreak1 {
+    display: block;
+    margin:8em 0 2em 0;
+    border-style:ridge;
+    border-width: 1px;
+    color:#707070;
+}
+
+.sectionbreak2 {
+    display: block;
+    margin:2.5em 0 2em 0;
+    border-style: ridge;
+    border-width: 1px;
+    color:#707070;
 }
 
 .projectintro {
-  width:50%;
+  width:70%;
   float:left;
     text-align:left;
     padding:0 4em 0 0;
 }
 
 .projectinfo {
-  width:40%;
+  width:30%;
   float:right;
     text-align:left;
-}
-
-.containerprocess {
-  height:auto;
-  width:100%;
-  line-height:1.5em;
-  text-align:left;
-  font-size:.75rem;
-  margin-bottom:0;
-}
-
-.textprocess {
-  width:50%;
-  float:left;
-  display:block;
-  margin:0 auto 0 auto;
-  padding:2em 0em 0 3em;
-  position: relative;
-  text-align:left;
-  font-size:.8em;
-  line-height:1.5em;
 }
 
 .smalltext {
@@ -277,8 +345,15 @@ height:auto;
   width:100%;
   margin:0 auto 0 auto;
   text-align:center;
-  padding:0 auto 0 auto;
-    text-align:left;
+  padding:5em auto 3em auto;
+    text-align:center;
+}
+
+.p_container {
+    width:70%;
+    text-align:center;
+    margin:auto;
+    height:auto;
 }
 
 .prototype {
@@ -369,8 +444,10 @@ height:auto;
   padding: 0 1.5rem;
     font-variant-caps: all-small-caps;
     line-height:1em;
-    font-family:"Montserrat", sans-serif;
-    font-size:.8em;
+    font-family:"Apercu", sans-serif;
+        font-weight:medium;
+
+    font-size:.75em;
 
 }
 
@@ -424,28 +501,30 @@ height:auto;
   display:block;
   margin:2rem auto 0 auto;
   width:100%;
-  font-family:"Montserrat", sans-serif;
-    font-variant:small-caps;
-    letter-spacing:.3em;
+    font-family:"Apercu", sans-serif;
+              font-weight: 400;
+
+    font-variant-caps: all-small-caps;
+    letter-spacing:.2em;
   font-size:.75em;
-    position:relative;
-    left:.8em;
 }
 
 .menu-item {
   display: inline-block;
   text-align:center;
+
+    color:#000000;
+    padding:0 1em 0 0;
+    margin:0;
 }
 
-.menu-item:not(:last-child)::after {
-  content: "   ";
-  display: inline-block;
-  font-size: .75em;
-  color: #a8a5be;
+.menu-item:last-child {
+  padding:0;
 }
 
 .menu-item a {
   border-bottom: 0;
+    
 }
 
 .menu-item.is-active a {
@@ -454,14 +533,35 @@ height:auto;
 
 /*FOOTER*/
 
+.social-buttons {
+    margin:-.5em 0 -1em 0;
+    padding:0;
+}
+
+.social-item {
+    display:inline-block;
+    margin:0 1.5em 1em 0;
+    padding:0;
+    font-size:1.2em;
+    
+}
+
+.social-item:last-child {
+    margin:0;
+}
+
+.social-item:hover {
+    cursor:pointer;
+    color:#FF0000; 
+}
 
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   padding: 1.5rem 0;
   text-align: center;
   font-size: .875rem;
+    display:block;
+    clear:both;
 
 }
 
