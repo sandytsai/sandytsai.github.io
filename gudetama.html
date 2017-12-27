@@ -69,7 +69,7 @@ ga('send', 'pageview');
           
         <div class="flexible_container">
       <div class="projectintro">
-           My Gudetama is a mobile app I worked on for a hackathon at Cardinal Blue Software. The theme for our hackathon was to incorporate the characters of Sanrio, our branding partner. We decided to use the Gudetama character as a virtual pet that could be nurtured through a user's physical activity or dietary choices, motivating people into having a healthier lifestyle.
+           My Gudetama is a mobile app I worked on for a hackathon at Cardinal Blue Software. The theme for our hackathon was to incorporate the characters of Sanrio, our branding partner. We decided early on to use a character as a virtual pet that encourages a healthy lifestyle.
           
       </div>
           
@@ -89,47 +89,101 @@ ga('send', 'pageview');
 
 
 <div class="textcontainer">
-
-<h4>User Interview Key Findings</h4>
-<p class="p_container">Users like to keep track of specific health related activities but generally do not record diets<br /><br />
-The average user (doesn't have special health needs) does not like to input data for activities that don't give them a sense of accomplishment (e.g. eating)<br /><br />
-Users prefer apps that can automatically record physical activity without user input, such as typing in information<br /><br /></p>
+    
+    <h4>Design Challenge</h4>
+<p class="p_container">How might we use a virtual pet to improve a user's health habits?
+</p>
     
     <hr class="sectionbreak2">
 
-<h4>Challenges</h4>
+<h4>User Interview Key Findings</h4>
+<p class="p_container">To begin exploring the problem space, we conducted a semi-structured interview with two participants and asked about their health habits and their usage of any health related apps.</p>
+    
+         <p class="cf"></p>
+        <div class="three_boxes">
+              <h4>exercise vs. diets</h4>
+          <p class="font_small">Users like to keep track of physical activities but generally do not record diets.</p>
+              
+              </div>
+          
+          <div class="three_boxes">
+              <h4>lax about diets</h4>
+              <p class="font_small">The average user without special health needs does not record meal data because they don't keep strict diets and don't care to make the effort.</p>
+
+              
+              </div>
+          
+          <div class="three_boxes">
+              <h4>no manual input</h4>
+              <p class="font_small">Users prefer apps that can automatically record physical activity without user input, such as typing in information.</p>
+          
+              </div>
+    
+     <p class="cf"></p>
+    
+    <hr class="sectionbreak2">
+    
+    <h4>Persona Development</h4>
+    <p class="p_container">"I love playing mobile app games and I like using apps that let me collect beautiful and cute rewards, giving me a sense of accomplishment."</p>
+</div>
+
+
+    
+    <hr class="sectionbreak2">
+
+<h4>What should we track?</h4>
     <p class="p_container">One of the hardest challenges was coming up with a system that could translate a user's daily activity into quantitative rewards. For example, recording meals would be difficult to objectively quantify and we didn't want to depend on users painstakingly inputing lots of data. A user's actions need to be automatically recorded and turned into rewards with a quantitative scale.</p>
     
 
-<h4>How to influence user behavior?</h4>
-    <p class="p_container">Another challenge was influencing a user's behavior. Instead of just being able to feed your pet, we had to continuously offer new value so that users get hooked into repeatedly using the app. We looked at apps similar to <a href="https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8" target="_blank">Pokemon Go</a>, which motivate users by providing new things to collect. We aimed to create an experience that excites users into collecting items for Gudetama.</p>
+<h4>How can we influence user behavior?</h4>
+    <p class="p_container">Another challenge was influencing a user's behavior. Instead of just being able to feed your pet, we had to continuously offer new value so that users get hooked into repeatedly using the app. We looked at apps like <a href="https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8" target="_blank">Pokemon Go</a>, and <a href="https://itunes.apple.com/us/app/neko-atsume-kitty-collector/id923917775?mt=8" target="_blank">Neko Atsume</a>, which motivate users by providing new things to collect. We aimed to create an experience that excites users into collecting items for your pet.</p>
 
     <hr class="sectionbreak2">
     
 <h4>Goals</h4>
-Track specific user activity<br />
+<p class="p_container">Track specific user activity<br />
 Translate user activity into quantitative rewards<br />
 Influence user's behavior by creating rewards they want to collect<br />
-Minimize data input for user<br />
+Minimize data input for user</p>
     
         <hr class="sectionbreak2">
 
     
-    <h4>Wireframe</h4>
+
+
+<h4>Solution</h4>
+    <p class="p_container">Using our research, we brianstormed ideas and talked through the challenges and solutions of our ideas, eventually narrowing down to a walking app that motivates you through collecting goodies for a virtual Gudetama character.</p>
+    
+<p class="cf"></p>
+        <div class="three_boxes">
+              <h4>Walking App</h4>
+          <p class="font_small">We focused on physical activity because users don't like to record meals and it is easier to track and quantify. Walking allows the user to accomplish the goal passively without disrupting their day, and eliminates the need to manually input data.</p>
+              
+              </div>
+          
+          <div class="three_boxes">
+              <h4>Coin System</h4>
+              <p class="font_small">A coin system makes sure that steps can be converted using a consistent scale. Coins can be used to buy goodies for your pet. Earning virtual currency to buy your own goodies can be a strong motivator.</p>
+
+              
+              </div>
+          
+          <div class="three_boxes">
+              <h4>Gudetama Collectibles</h4>
+              <p class="font_small">Gudetama is a popular character among young adults and adds humor and personality. Users will be motivated to collect goodies to see Gudetama interact with rewards ranging from basic to luxurious.</p>
+          
+              </div>
+    
+     <p class="cf"></p>
+    
+        <hr class="sectionbreak2">
+
+    
+        <h4>Wireframe</h4>
 <img src="projects/5-gudetama/sketch_1.jpg" alt="sketch_1" />
     
     <hr class="sectionbreak2">
-
-<h4>Solution</h4>
-    <p class="p_container">We narrowed it down to one activity: walking. This simplifies the activity quantification, allows the user to easily accomplish the goals, and eliminates the need to input data regularly. To influence and quantify a user's behavior, I suggested a coin system where a number of steps will get you a number of coins. These coins can be used to buy collectible goodies for your pet. Based on research of existing apps, earning virtual currency to buy your own goodies can be a strong motivator. Goodies will range from basic to luxurious, so this should motivate users to keep using the app so they can collect increasingly luxurious goodies to see more interactions from Gudetama.</p>
     
-    <hr class="sectionbreak2">
-
-<h4>User Persona: Emily</h4>
-    <p class="p_container">"I love playing mobile app games and I like using apps that let me collect beautiful and cute rewards, giving me a sense of accomplishment."</p>
-</div>
-
-    <hr class="sectionbreak2">
     
 <div class="container">
 <div class="imgfloat">

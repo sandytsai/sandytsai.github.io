@@ -93,6 +93,15 @@ footer, header, main, menu, nav, section, summary {
   max-width: 48rem;
 }
 
+/*p5 sketch*/
+
+#p5sketch {
+    width:100%;
+    height:800px;
+    display:block;
+    margin:auto;
+}
+
 /*type*/
 
 h1, h2, h3, h4 {
