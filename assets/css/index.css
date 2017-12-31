@@ -283,7 +283,7 @@ img {
     float:right;
     padding:1.5em 0 2em 0;
     background-color:#e7eef8;
-    margin:2em 0 2em 0;
+    margin:1em 0 2em 0;
 }
 
 .two_boxes_bluel {
@@ -291,7 +291,7 @@ img {
     float:left;
     padding:1.5em 0 2em 0;
     background-color:#e7eef8;
-    margin:2em 0 2em 0;
+    margin:1em 0 2em 0;
 }
 
 .font_small {
@@ -333,14 +333,14 @@ height:auto;
 }
 
 .projectintro {
-  width:70%;
+  width:65%;
   float:left;
     text-align:left;
     padding:0 4em 0 0;
 }
 
 .projectinfo {
-  width:30%;
+  width:35%;
   float:right;
     text-align:left;
 }
@@ -401,6 +401,12 @@ height:auto;
   list-style: none;
   margin-bottom: .75rem;
   position: relative;
+}
+
+  .showcase-item:nth-last-child(3n+2):first-child,
+  .showcase-item:nth-last-child(3n+2):first-child + .showcase-item, .showcase-item:nth-last-child(3n+1):first-child,
+  .showcase-item:nth-last-child(3n+1):first-child ~ .showcase-item:nth-child(-n+4) {
+    width: 50%;
 }
 
 

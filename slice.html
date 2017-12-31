@@ -66,21 +66,21 @@
 
       
 
-          <h1>Hermes</h1>
+          <h1>Slice</h1>
           
         <div class="flexible_container">
       <div class="projectintro">
-           Seattle’s Office of Labor Standards (OLS) created the <a href="https://www.seattle.gov/laborstandards/ordinances/secure-scheduling" target="_blank">Secure Scheduling Ordinance</a> to protect the rights of restaurant shift workers, which can be easily neglected due to the chaos of hourly work scheduling in smaller businesses. For a class project, we wanted to help address this problem. To help workers and managers better follow regulations, we created Hermes, a chatbot that automates hourly work scheduling and rewards shift workers for being responsive.
+           Have you ever dined at a restaurant and felt frustrated because of the waiting and figuring out the bill? At UW, I worked on a side project to understand and improve dining experiences. Based on our research, we created a Slice, a mobile app that improves the billing process by eliminating the need to request for bills and makes bill splitting easy.
           
       </div>
           
           <div class="projectinfo">
           <h2>Team</h2>
-              <p class="label">Blake Tsuzaki (Engineer), David Mondello (Project Manager/Researcher), Issac Zheng (Designer)</p>
+              <p class="label">Jessica Son, Himangshu Borah, Thomas Tran</p>
+          <h2>Role</h2>
+              <p class="label">Interviews, prototyping</p>
           <h2>Process</h2>
-              <p class="label">10 weeks for interviews, survey, competitive analysis, personas, ideation, sketching, prototyping, usability, and evaluation</p>
-               <h2>Tools</h2>
-              <p class="label">Sketch, Marvel App, Principle, Facebook for Developers, Wit.ai</p>
+              <p class="label">6 weeks to research problem space, conduct interviews, survey, competitive analysis, ideate, sketch, prototype, test, and evaluate</p>
       </div>
                 
       </div>
@@ -90,48 +90,45 @@
 
       <div class="textcontainer">
       <h4>Design Question</h4>
-      <p class="p_container">How might we improve communication between shift workers and their managers when developing and modifying schedules?
+      <p class="p_container">How might we improve dining experiences at sit-down restaurants?
           </p>
         <hr class="sectionbreak2">
           
+          <h4>Dining Task Flow</h4>
+      <p class="p_container">Before we conducted our research, we created a task flow analysis to understand the potential problems we needed to research. 
+          </p>
+          
+                  <hr class="sectionbreak2">
+
+          
           <h4>Research Findings</h4>
-          <p class="p_container">We conducted 5 user interviews with our stakeholders, including shift workers, managers, and an OLS representative. We also created a survey each for the manager and shift worker, with about 50 respondents total.</p>
+          <p class="p_container">We conducted 5 semi-structured interviews with diners and waiters combined and created a survey that got about 30 respondents. We aimed to understand the pleasures and pain points of the dining experience starting from your first interaction to paying your bill. </p>
           <img src="projects/15-hermes/hermes-1.png" class="firstimg" alt="research" />
           
           <hr class="sectionbreak2">
-          <h4>Persona Development</h4>
-          <p class="p_container">Using our research, we created two primary personas for the manager and the shift worker. We mapped out the characteristics we found by plotting each of our user interview participants on different scales.</p>
+          <h4>Managing Scope</h4>
+          <p class="p_container">Although there were other areas that could be improved, such as decreasing waiter interruptions or getting price transparency/estimates, we felt that we needed to focus on billing as most frustrations arise there.</p>
+          
+          <h4>Competitive Analysis</h4>
+          <p class="p_container">We conducted a competitive analysis to give us a better idea of how this problem is currently being addressed and what was successful and unsuccessful about existing solutions. We looked at direct and indirect competitors and found an opportunity with our project. </p>
+          
+          <h4>Our User Flow</h4>
+          <p class="p_container">We created a user flow of what we thought an experience with our solution would look like and help us design.</p>
           
         </div>
         
           
-              
-        <div class="textbox400 bluebg">
-        <div class="two_boxes">
-      <img src="projects/15-hermes/persona-2.png" class="personaimg" alt="original" />
-            <h5>Casey, Manager</h5>
-            <p class="font_small">“Being a manager is challenging and rewarding. I want to focus on managing the business and not the details of scheduling while also protecting my workers’ privacy.”</p>
-      
-      </div>
-    
-         <div class="two_boxes">
-             <img src="projects/15-hermes/persona-1.png" class="personaimg" alt="original" />
-          <h5>Luna, Shift Worker</h5>
-             <p class="font_small">“I got this job so that I could support myself and learn valuable skills while being a full-time student. I like being in control of my schedule and working flexible shifts.”</p>
-             </div>
-            </div>
         
         <hr class="sectionbreak2">
         
-        <h4>Ideation</h4>
-        <p class="p_container">We started our ideation process by creating specific design questions we found from our research and brainstormed ideas for each of them. Then we used affinity diagramming to organize our ideas. </p>
+        <h4>Paper Prototyping</h4>
+        <p class="p_container">We decided to create paper prototypes because it was the quickest way to test our idea on a tight timeline. </p>
           
-        <h4>Brainstorm & Affinity Diagram</h4>
           <div class="textcontainer">
           <img src="projects/15-hermes/hermes-2.png" class="projectimg" alt="ideation" />
           
-          <h4>Sketching</h4>
-              <p class="p_container">We sketched out our ideas and selected the top 3 that most addressed our perona's needs and stood out against our competitive analysis. We combined these 3 ideas and imagined a system that...</p>
+          <h4>Complexity of Billing</h4>
+              <p class="p_container">Bill splitting is complex and frustrating to most people, so we wanted our app to be able to anticipate many scenarios that would complicate our app, and figure out how to successfully design interactions that make it more straightforward.</p>
               <p class="cf"></p>
         <div class="three_boxes">
               <h4>Self-Scheduling</h4>
@@ -149,64 +146,22 @@
           <div class="three_boxes">
               <h4>Chatbot</h4>
               <p class="font_small">...automates scheduling needs with a chatbot that handles all logistics between workers. This bot is also a neutral actor that can anonymize shift swaps and enforce regulations, increasing trust and comfort.</p>
-              
           
               
               </div>
               
-              <img src="projects/15-hermes/hermes-3.png" class="firstimg" alt="sketches" />
               
               <hr class="sectionbreak2">
               
-               <h4>Prototyping</h4>
-              <p class="p_container">I designed the low-fidelity prototype of the reward UI using <a href="https://sketchapp.com" target="_blank">Sketch</a> and <a href="https://marvelapp.com/" target="_blank">Marvel App</a>, while my teammate built a prototype Facebook Messenger bot using <a href="https://wit.ai/" target="_blank">Wit.ai</a>. </p>
               
-                      <img src="projects/15-hermes/hermes-5.jpg" class="firstimg" alt="hermes" />
-              <img src="projects/15-hermes/hermes-6.jpg" class="firstimg" alt="hermes" />
-              
-              <hr class="sectionbreak2">
-
-              
-              
-                    <p class="cf"></p>
-
-              <h4>Usability Test Findings</h4>
-              <div class="two_boxes_bluel">
-              
-              <h5>Challenges</h5>
-            <ul>
-                  <li>Introducing Bot</li>
-                <li>Introducing Reward System</li>
-                <li>Fair Reward System</li>
-                <li>Difficulties of Text Format</li>
-                  </ul>
-              </div>
-              <div class="two_boxes_bluer">
-              
-                  
-                  <h5>Successes</h5>
-            <ul>
-                  <li>Combination of Bot & App</li>
-                <li>Chatbot Quick Replies</li>
-                <li>Increased Trust</li>
-                <li>Increased Flexibility</li>
-                  </ul>
-              </div>
-                    <p class="cf"></p>
-              
-              
-              
-              <p class="p_container">We tested these two interfaces for 4 use case scenarios with 5 users. Based on our test findings, we added more quick replies to the bot to guide the user and give suggestions. We also combined the chatbot and reward app into a single interface to unify the concept.</p>
-
               
               </div>
         
                       <hr class="sectionbreak2">
 
         
-        <h4>What does Hermes do?</h4>
-        
-        <img src="projects/15-hermes/hermes-4.jpg" class="firstimg" alt="hermes" />
+        <h4>Solution</h4>
+        <p class="p_container">I built out the system more and my teammate combined the app and chatbot into a unified experience. We also refined the wording and design, and added more quick replies to the bot to guide the user.</p>
         
         <hr class="sectionbreak2">
         
