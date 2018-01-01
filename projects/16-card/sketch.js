@@ -1,6 +1,6 @@
 //visual
 const BACKGROUND_COLOR = 255;
-const INSTRUCTIONS = "type something";
+const INSTRUCTIONS = "click on the canvas and type something";
 const TEXT_COLOR = "gray";
 
 //canvas size

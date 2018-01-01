@@ -100,7 +100,7 @@ footer, header, main, menu, nav, section, summary {
     width:100%;
     height:800px;
     display:block;
-    margin:auto;
+    margin:0 auto 10em 0;
 }
 
 /*type*/
@@ -280,6 +280,7 @@ img {
     float:left;
     padding:1em;
     height:auto;
+    
 }
 
 .two_boxes_bluer {
@@ -419,7 +420,7 @@ height:auto;
   position: relative;
   padding-top: 100%;
   z-index: 0;
-  border-bottom: 0;
+  border-bottom: none;
 }
 
 .showcase-caption {

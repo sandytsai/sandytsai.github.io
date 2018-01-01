@@ -13,46 +13,6 @@ background: rgba(255, 255, 255, 0.85);
         
 }
 
- /*all except phone size*/
-@media all and (min-width: 30em) {
-    
-    .wrap {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .wrap.wide {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .wrap:not(.wide) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .textfloat {
-    padding:2.5rem;
-  }
-
-    .project-content{
-      background: #ffffff;
-      padding:.75rem .75rem 3rem .75rem;
-        max-width:1200px;
-        width:95%;
-        margin:auto;
-    }
-
-
-    .projects-section {
-      background: #ffffff;
-      padding: .75rem 0.25rem 0;
-    max-width:1200px;
-        display:block;
-        margin:auto;
-        width:95%;
-    }
-
-  }
-
 /*phone screenshots*/
 
 @media all and (max-width: 45em) {
@@ -74,7 +34,7 @@ background: rgba(255, 255, 255, 0.85);
         padding:0 0 1.5em 0;
     }
     
-    .textbox400.bluebg {
+    .textbox400 {
         height:auto;
         padding:1.5em 1.5em .5em 1.5em;
     }
@@ -86,7 +46,7 @@ background: rgba(255, 255, 255, 0.85);
     .two_boxes_bluer {
         float:none;
         width:100%;
-        margin:0;
+        margin: 0 0 1.5em 0;
     }
     
     
@@ -160,6 +120,7 @@ top:0%;
 /*phone*/
 @media all and (max-width: 30em) {
 
+
     .p_container {
         width:100%;
     }
@@ -197,7 +158,13 @@ top:0%;
 
 .showcase-item {
   margin:0;
-    width:50%;
+    width:100%;
+}
+    
+      .showcase-item:nth-last-child(3n+2):first-child,
+  .showcase-item:nth-last-child(3n+2):first-child + .showcase-item, .showcase-item:nth-last-child(3n+1):first-child,
+  .showcase-item:nth-last-child(3n+1):first-child ~ .showcase-item:nth-child(-n+4) {
+    width: 100%;
 }
     
     .grid.gutter-1 {
@@ -273,10 +240,49 @@ top:0%;
 
  /*tablet*/
 @media all and (min-width: 30em) {
+    
+        .wrap {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .wrap.wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .wrap:not(.wide) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .textfloat {
+    padding:2.5rem;
+  }
+
+    .project-content{
+      background: #ffffff;
+      padding:.75rem .75rem 3rem .75rem;
+        max-width:1200px;
+        width:95%;
+        margin:auto;
+    }
+
+
+    .projects-section {
+      background: #ffffff;
+      padding: .75rem 0.25rem 0;
+    max-width:1200px;
+        display:block;
+        margin:auto;
+        width:95%;
+    }
 
 .showcase-item {
   width: 50%;
 }
+    
+    .textbox400 {
+        height:500px;
+    }
     
     
 .thankyou {
@@ -301,6 +307,12 @@ top:0%;
     padding-bottom: 0rem;
       
   }
+    
+        .textbox400 {
+        height:400px;
+    }
+    
+    
       .showcase-item {
     width: 33.33%;
   }
