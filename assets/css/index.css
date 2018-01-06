@@ -3,12 +3,12 @@
 
 @font-face {
     font-family:'Apercu';
-  src: url('Apercu-Medium.eot');
-  src: url('Apercu-Medium.woff2') format('woff2'),
-       url('Apercu-Medium.woff') format('woff'),
-       url('Apercu-Medium.ttf') format('truetype'),
-       url('Apercu-Medium.svg#Apercu-Medium') format('svg'),
-       url('Apercu-Medium.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/Apercu/Apercu-Medium.eot');
+  src: url('../fonts/Apercu/Apercu-Medium.woff2') format('woff2'),
+       url('../fonts/Apercu/Apercu-Medium.woff') format('woff'),
+       url('../fonts/Apercu/Apercu-Medium.ttf') format('truetype'),
+       url('../fonts/Apercu/Apercu-Medium.svg#Apercu-Medium') format('svg'),
+       url('../fonts/Apercu/Apercu-Medium.eot?#iefix') format('embedded-opentype');
 }
 
 
