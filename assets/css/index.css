@@ -2,9 +2,13 @@
 /*fonts*/
 
 @font-face {
-    font-family:"Apercu";
-    font-weight: 400;
-    src: url(assets/fonts/Apercu/Apercu-Medium.otf);
+    font-family:'Apercu';
+  src: url('Apercu-Medium.eot');
+  src: url('Apercu-Medium.woff2') format('woff2'),
+       url('Apercu-Medium.woff') format('woff'),
+       url('Apercu-Medium.ttf') format('truetype'),
+       url('Apercu-Medium.svg#Apercu-Medium') format('svg'),
+       url('Apercu-Medium.eot?#iefix') format('embedded-opentype');
 }
 
 
@@ -105,10 +109,12 @@ footer, header, main, menu, nav, section, summary {
 
 /*type*/
 
-h1, h2, h3, h4 {
-font-family: 'Apercu', sans-serif;
+h2, h3, h4, h5 {
+font-family: 'questa_sansregular','Apercu', sans-serif;
 font-variant-caps:all-small-caps;
-  font-weight: medium;
+    font-size: .85em;
+    letter-spacing:.2em;
+    color:black;
 }
 
 h1 {
@@ -124,30 +130,16 @@ h1 {
 }
 
 h2 {
-    font-size:.85em;
     margin-top:0em;
-    font-family:"Apercu';
-    font-variant-caps:all-small-caps;
-    font-weight:medium;
-    letter-spacing:.2em;
-    color:#000000;
 }
 
 h5 {
-  font-size: .80em;
-  font-variant-caps:all-small-caps;
-  letter-spacing:.2em;
-    color:black;
   margin:.5em auto .5em auto;
   padding:0;
     text-align:center;
 }
 
 h4 {
-  font-size: .85em;
-  font-variant-caps:all-small-caps;
-  letter-spacing:.2em;
-    color:black;
   margin:3em auto .5em auto;
   padding:0;
     text-align:center;

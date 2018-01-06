@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Apercu-Medium';
+  src: url('Apercu-Medium.eot');
+  src: url('Apercu-Medium.woff2') format('woff2'),
+       url('Apercu-Medium.woff') format('woff'),
+       url('Apercu-Medium.ttf') format('truetype'),
+       url('Apercu-Medium.svg#Apercu-Medium') format('svg'),
+       url('Apercu-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
