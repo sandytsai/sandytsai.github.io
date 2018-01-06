@@ -109,7 +109,7 @@ footer, header, main, menu, nav, section, summary {
 
 /*type*/
 
-h2, h3, h4, h5 {
+h2, h4, h5 {
 font-family: 'questa_sansregular','Apercu', sans-serif;
 font-variant-caps:all-small-caps;
     font-size: .85em;
@@ -457,9 +457,9 @@ height:auto;
     font-variant-caps: all-small-caps;
     line-height:1em;
     font-family:"Apercu", sans-serif;
-        font-weight:medium;
-
-    font-size:.75em;
+    color:#707070;
+    font-size:.70em;
+    letter-spacing:.1em;
 
 }
 
