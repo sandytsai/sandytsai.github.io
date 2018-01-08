@@ -221,6 +221,16 @@ img {
     text-align:center;
 }
 
+.imgfloat_ipad {
+    width:50%;
+  float:left;
+  position: relative;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .imgfloat img {
   height:500px;
   width:auto;
@@ -299,6 +309,17 @@ img {
 .textfloat {
   width:50%;
   float:left;
+  position: relative;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    text-align:left;
+}
+
+.textfloat_ipad {
+  width:50%;
+  float:right;
   position: relative;
   top:50%;
   -webkit-transform: translateY(-50%);
