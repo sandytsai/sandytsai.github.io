@@ -71,6 +71,18 @@ background: rgba(255, 255, 255, 0.85);
   margin:2em 0 -2em 0;
   height:auto;
 }
+    
+    .imgfloat_ipad {
+  width:100%;
+  display:block;
+  float:none;
+  margin:9em 0 -4.5em 0;
+  height:auto;
+}
+    
+    .imgfloat_ipad video {
+        height:215px;
+    }
 
 .textfloat {
   width:90%;
