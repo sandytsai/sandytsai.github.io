@@ -285,21 +285,30 @@ img {
     
 }
 
-.two_boxes_bluer {
-    width:48%;
-    float:right;
-    padding:1.5em 0 2em 0;
-    background-color:#e7eef8;
-    margin:1em 0 2em 0;
-}
-
-.two_boxes_bluel {
+.two_boxes_color {
     width:48%;
     float:left;
     padding:1.5em 0 2em 0;
     background-color:#e7eef8;
     margin:1em 0 2em 0;
 }
+
+.right {
+    float:right;
+}
+
+.orange {
+    background-color:#ffe7d1;
+}
+
+.orangetext {
+    color:#f04f35;
+}
+
+.bluetext {
+    color:#4892ff;
+}
+
 
 .font_small {
     font-size:.9em;
