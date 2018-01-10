@@ -104,7 +104,7 @@ footer, header, main, menu, nav, section, summary {
     width:100%;
     height:800px;
     display:block;
-    margin:0 auto 10em 0;
+    margin:0 auto 5em 0;
 }
 
 /*type*/
@@ -357,6 +357,12 @@ height:auto;
     border-style: ridge;
     border-width: 1px;
     color:#707070;
+}
+
+.sectionbreak3 {
+    display:block;
+    margin:2em 0 2em 0;
+    border:none;
 }
 
 .projectintro {
