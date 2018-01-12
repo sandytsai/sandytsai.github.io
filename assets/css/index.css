@@ -560,7 +560,7 @@ height:auto;
   display: inline-block;
   text-align:center;
 
-    color:#000000;
+    color:#ff9797;
     padding:0 1em 0 0;
     margin:0;
 }
@@ -590,6 +590,7 @@ height:auto;
     margin:0 1.5em 1em 0;
     padding:0;
     font-size:1.2em;
+        color:#ff9797;
     
 }
 
@@ -609,6 +610,7 @@ height:auto;
   font-size: .875rem;
     display:block;
     clear:both;
+    color:#ff9797;
 
 }
 
