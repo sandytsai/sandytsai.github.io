@@ -1,6 +1,6 @@
 //visual
 const BACKGROUND_COLOR = 255;
-const INSTRUCTIONS = "Type something";
+const INSTRUCTIONS = "type to add greeting, click to add";
 const TEXT_COLOR = "gray";
 
 //canvas size
@@ -10,19 +10,11 @@ const CANVAS_WIDTH = 900;
 //type sizes
 const LETTER_SPACE = 5;
 const LETTER_WIDTH = 80;
-const LETTER_HEIGHT = 100;
-const LINE_SPACE = 5;
-var row = 1;
 
 //variables
 var name = "";
 var letter = [];
 var myAnimation = [];
-
-var canvas;
-var saveClick = true;
-var gif, recording = false;
-var save_btn;
 
 //preload animations
 function preload() {
@@ -53,7 +45,6 @@ W = loadAnimation('assets/letters/w1.png', 'assets/letters/w2.png');
 X = loadAnimation('assets/letters/x1.png', 'assets/letters/x2.png');
 Y = loadAnimation('assets/letters/y1.png', 'assets/letters/y2.png');
 Z = loadAnimation('assets/letters/z1.png', 'assets/letters/z2.png');
-SPACE = loadAnimation('assets/letters/z1.png', 'assets/letters/z2.png');
 
 //loads array of images
 myAnimation[0] = loadImage('assets/deco/01.png');
@@ -69,13 +60,11 @@ myAnimation[6] = loadImage('assets/deco/07.png');
 
 function setup() { 
 
-canvas = createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
-
-canvas.parent('sketch-holder');
+  var canvas = createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
+  canvas.parent('sketch-holder');
 
   background(BACKGROUND_COLOR);
   
-  //instructions
   textFont("Lato");
   fill(TEXT_COLOR);
   textAlign(CENTER);
@@ -83,68 +72,14 @@ canvas.parent('sketch-holder');
   text(INSTRUCTIONS,width/2,height/2);
   frameRate(10);
 
-//set up restart button
-  restart_btn = createButton('restart');
-  restart_btn.class('restart_btn');
-  restart_btn.parent('btn_container');
-  restart_btn.mouseClicked(restart);
-
-  //set up save button
-save_btn = createButton('record');
-save_btn.class('save_btn');
-save_btn.parent('btn_container');
-save_btn.mouseClicked(savecanvas);
-
-setupGIF();
   
 } 
-
-function restart() {
-  background(BACKGROUND_COLOR);
-  letter = [];
-
-}
-
-function savecanvas() {
-
-  recording = !recording;
-
-    if (!recording) {
-        gif.render();
-    }
-
-saveClick = !saveClick;
-
-if (!saveClick) {
-  save_btn.html('stop + save');
-
- // var recording = createDiv('');
-  //recording.class('recording_indicator');
- // recording.parent('status');
-
-} else {
-  save_btn.html('record');
-}
-
-    
-
-}
-
-
 
 function keyPressed() {
   background(BACKGROUND_COLOR);
 
-if (keyCode <= 90 && keyCode >= 65) {
+  		//adds letter each time key is pressed to name variable to show name
   name += key;
-} else if (keyCode == 32) {
-  name += " ";
-
-//} else if (keyCode == BACKSPACE) {
-  //name = name.substring(0,name.length()-1);
-//} else if (keyCode == ENTER) {
-} else {};
-     
   
   //backspace - Couldn't get this to work yet, but I want to add backspace function if I have more time
   //if(keyCode == BACKSPACE) {
@@ -177,27 +112,16 @@ function animateName(letter,index,length,letterspace,letterwidth) {
 //calculate position of letters
 //calculates width of entire name, including letter spacing
 var nameWidth = (length * letterwidth) + (length-1);
-//var nameHeight = (rows * letterheight) + (rows-1);
-
 //calculate the X position of the first letter
 var startPositionX = (width-nameWidth)/2;
-//var startPositionY = (height-nameHeight)/2;
-
 //calculates X position of each letter
-var letterPositionX = startPositionX + (letterwidth+letterspace)*index;
-//var letterPositionY = startPositionY + (letterheight+linespace)*rows;
+var letterPositionX = startPositionX + (letterwidth+letterspace)*i;
 
-var letterPositionY = CANVAS_HEIGHT/2;
 //converts user input into variable
-if (letter == " ") {
-  newLetter = SPACE;
-} else {
 var newLetter = eval(letter);
-}
-
 
 //animates the letter
-animation(newLetter,letterPositionX,letterPositionY)
+animation(newLetter,letterPositionX,CANVAS_HEIGHT/2)
 
 }
 
@@ -217,23 +141,6 @@ animateName(letter[i],i,letter.length,LETTER_SPACE,LETTER_WIDTH)
 //uses draws sprites from p5.play to load the stickers the user inputs by mouseclick
 drawSprites();
 
- if (recording) {
-        gif.addFrame(canvas.elt, {
-            delay: 1,
-            copy: true
-        });
-    }
-
-}
-
-function setupGIF() {
-    gif = new GIF({
-        workers: 5,
-        quality: 20
-    });
-    gif.on('finished', function(blob) {
-        window.open(URL.createObjectURL(blob));
-    });
 }
 
 //uses mouse position to create sprite for user to draw sticker on canvas

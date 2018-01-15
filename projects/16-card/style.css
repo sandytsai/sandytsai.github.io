@@ -4,12 +4,101 @@ html, body {
 
 body {
   margin: 0;
-  display: flex;
-  background-color:#F7EED3;
+  display:block;
+}
 
-  /* This centers our sketch horizontally. */
-  justify-content: center;
+#sketch-holder {
+	display:block;
+	margin:0 auto 5em auto;
+	width:100%;
+	float:none;
+}
 
-  /* This centers our sketch vertically. */
-  align-items: center;
+header {
+	width:900px;
+	display:block;
+	margin:1em auto 1em auto;
+	background-color:yellow;
+	height:auto;
+
+}
+
+.instructions {
+	float:left;
+}
+.instruction_txt {
+	font-family:"Lato";
+	font-size:.75em;
+	line-height: 1.5em;
+
+	text-align:left;
+	color:#ff0000;
+}
+
+.restart_btn {
+	width:150px;
+	height:50px;
+	border:solid 3px #FF0000;
+	color:#FF0000;
+	font-family:"Apercu", sans-serif;
+	font-size:.8em;
+	font-variant-caps: all-small-caps;
+	line-height:38px;
+	letter-spacing:.2em;
+	background-color:transparent;
+	float:right;
+}
+
+.save_btn {
+  width:150px;
+	height:50px;
+	border:solid 3px #FF0000;
+	color:#FF0000;
+	font-family:"Apercu", sans-serif;
+	font-size:.8em;
+	font-variant-caps: all-small-caps;
+	line-height:38px;
+	letter-spacing:.2em;
+	background-color:transparent;
+	float:left;
+}
+
+.restart_btn:hover {
+background-color:#ff0000;
+color:#ffffff;
+cursor:pointer;
+}
+
+.save_btn:hover {
+background-color:#ff0000;
+color:#ffffff;
+cursor:pointer;
+}
+
+#btn_container {
+	margin:1em auto 1em auto;
+	float:right;
+	width:370px;
+	height:50px;
+	position:relative;
+	bottom:0px;
+}
+
+#status {
+	width:10px;
+	height:50px;
+	margin-right:20px;
+	float:left;
+	background-color:transparent;
+}
+
+.recording_indicator {
+	border-radius:100px;
+	background-color:#ff0000;
+	width:10px;
+	height:10px;
+}
+
+.saved {
+	display:none;
 }

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*fonts*/
+/*fonts----------------------------------------------------------*/
 
 @font-face {
     font-family:'Apercu';
@@ -11,7 +11,7 @@
        url('../fonts/Apercu/Apercu-Medium.eot?#iefix') format('embedded-opentype');
 }
 
-/*global*/
+/*global----------------------------------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -97,7 +97,7 @@ footer, header, main, menu, nav, section, summary {
   max-width: 48rem;
 }
 
-/*p5 sketch*/
+/*p5 sketch----------------------------------------------------------*/
 
 #p5sketch {
     width:100%;
@@ -162,7 +162,7 @@ mark {
   background: #eafded;
 }
 
-/*images*/
+/*images----------------------------------------------------------*/
 
 .icon {
     fill: "#FFFFFF";
@@ -204,7 +204,12 @@ img {
     margin:0 0 3em 0;
 }
 
-/*content elements*/
+.headervid {
+    width:100%;
+    border:none;
+}
+
+/*content elements----------------------------------------------------------*/
 
 .container {
   height:500px;
@@ -421,7 +426,7 @@ height:auto;
 }
 
 
-/*showcase*/
+/*showcase----------------------------------------------------------*/
 
 .showcase {
   position: relative;
@@ -511,7 +516,7 @@ height:auto;
 }
 
 
-/*HEADER*/
+/*HEADER----------------------------------------------------------*/
 
 
 .header {
@@ -541,7 +546,7 @@ height:auto;
   border-bottom: 0;
 }
 
-/*MENU*/
+/*MENU----------------------------------------------------------*/
 
 .menu {
   text-align: center;
@@ -578,7 +583,7 @@ height:auto;
   color: #FF0000;
 }
 
-/*FOOTER*/
+/*FOOTER----------------------------------------------------------*/
 
 .social-buttons {
     margin:-.5em 0 -1em 0;
