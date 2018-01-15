@@ -36,6 +36,15 @@ header {
 	color:#1400ff;
 }
 
+.starter_txt {
+  font-family:"Lato";
+  font-size:1em;
+  text-align:center;
+  font-weight:300;
+  color:#1400ff;
+  align-self: center;
+}
+
 .restart_btn {
 	width:150px;
 	height:50px;

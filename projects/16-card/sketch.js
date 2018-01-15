@@ -1,7 +1,7 @@
 //visual
 const BACKGROUND_COLOR = 255;
 const INSTRUCTIONS = "Type something";
-const TEXT_COLOR = "gray";
+const TEXT_COLOR = "#1400ff";
 
 //canvas size
 const CANVAS_HEIGHT = 600;
@@ -67,19 +67,22 @@ myAnimation[6] = loadImage('assets/deco/07.png');
 
 }
 
-function setup() { 
+function setup() {
 
 canvas = createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
 
 canvas.parent('sketch-holder');
 
   background(BACKGROUND_COLOR);
-  
+
   //instructions
   textFont("Lato");
   fill(TEXT_COLOR);
   textAlign(CENTER);
   textSize(30);
+  //var start_txt = createP(INSTRUCTIONS);
+  //start_txt.class('starter_txt');
+  //start_txt.position(500,500);
   text(INSTRUCTIONS,width/2,height/2);
   frameRate(10);
 
@@ -96,8 +99,8 @@ save_btn.parent('btn_container');
 save_btn.mouseClicked(savecanvas);
 
 setupGIF();
-  
-} 
+
+}
 
 function restart() {
   background(BACKGROUND_COLOR);
@@ -126,7 +129,7 @@ if (!saveClick) {
   save_btn.html('record');
 }
 
-    
+
 
 }
 
@@ -144,13 +147,13 @@ if (keyCode <= 90 && keyCode >= 65) {
   //name = name.substring(0,name.length()-1);
 //} else if (keyCode == ENTER) {
 } else {};
-     
-  
+
+
   //backspace - Couldn't get this to work yet, but I want to add backspace function if I have more time
   //if(keyCode == BACKSPACE) {
     //name = name.substring(0,name.length()-1);
   //}
-    
+
     saveName(name);
   }
 
@@ -241,7 +244,7 @@ function mousePressed() {
 
 //only happens after user enters name
   if (nameEntered(letter)){
-  
+
   //originally was intended for stickers to be animated as well but didn't have time
   //var animatedSprite = createSprite(mouseX, mouseY, 50, 100);
 
@@ -254,5 +257,5 @@ var randomAnimation = random(myAnimation);
   //draws sticker when user clicks on canvas
   image(randomAnimation,mouseX,mouseY);
   }
-  
+
 }
