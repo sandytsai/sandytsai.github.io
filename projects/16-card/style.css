@@ -1,6 +1,8 @@
-html, body {
+html {
   height: 100%;
+  background-color:#eaeaea;
 }
+
 
 body {
   margin: 0;
@@ -17,8 +19,7 @@ body {
 header {
 	width:900px;
 	display:block;
-	margin:1em auto 1em auto;
-	background-color:yellow;
+	margin:2.5em auto 1em auto;
 	height:auto;
 
 }
@@ -32,14 +33,14 @@ header {
 	line-height: 1.5em;
 
 	text-align:left;
-	color:#ff0000;
+	color:#1400ff;
 }
 
 .restart_btn {
 	width:150px;
 	height:50px;
-	border:solid 3px #FF0000;
-	color:#FF0000;
+	border:solid 3px #1400ff;
+	color:#1400ff;
 	font-family:"Apercu", sans-serif;
 	font-size:.8em;
 	font-variant-caps: all-small-caps;
@@ -52,8 +53,8 @@ header {
 .save_btn {
   width:150px;
 	height:50px;
-	border:solid 3px #FF0000;
-	color:#FF0000;
+	border:solid 3px #1400ff;
+	color:#1400ff;
 	font-family:"Apercu", sans-serif;
 	font-size:.8em;
 	font-variant-caps: all-small-caps;
@@ -64,13 +65,13 @@ header {
 }
 
 .restart_btn:hover {
-background-color:#ff0000;
+background-color:#1400ff;
 color:#ffffff;
 cursor:pointer;
 }
 
 .save_btn:hover {
-background-color:#ff0000;
+background-color:#1400ff;
 color:#ffffff;
 cursor:pointer;
 }
@@ -94,7 +95,7 @@ cursor:pointer;
 
 .recording_indicator {
 	border-radius:100px;
-	background-color:#ff0000;
+	background-color:#1400ff;
 	width:10px;
 	height:10px;
 }
