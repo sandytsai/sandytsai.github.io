@@ -1,10 +1,10 @@
-/*no hover for device*/
+/*no hover for device----------------------------------------*/
 @media (any-hover: none) {
     
 .showcase-caption {
-opacity: 0;
+opacity: 1;
 will-change: auto;
-background: rgba(255, 255, 255, 0.85);
+background: rgba(255, 255, 255, 0.6);
   }
     
     .projects-section {
@@ -13,7 +13,7 @@ background: rgba(255, 255, 255, 0.85);
         
 }
 
-/*phone screenshots*/
+/*phone screenshots----------------------------------------*/
 
 @media all and (max-width: 45em) {
     
@@ -129,7 +129,7 @@ top:0%;
 }
 
 
-/*phone*/
+/*phone----------------------------------------*/
 @media all and (max-width: 30em) {
 
 
@@ -250,7 +250,7 @@ top:0%;
 
 
 
- /*tablet*/
+ /*tablet----------------------------------------*/
 @media all and (min-width: 30em) {
     
         .wrap {
