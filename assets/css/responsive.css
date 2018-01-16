@@ -1,44 +1,44 @@
 /*no hover for device----------------------------------------*/
 @media (any-hover: none) {
-    
+
 .showcase-caption {
 opacity: 1;
 will-change: auto;
 background: rgba(255, 255, 255, 0.6);
   }
-    
+
     .projects-section {
         margin:auto;
     }
-        
+
 }
 
 /*phone screenshots----------------------------------------*/
 
 @media all and (max-width: 45em) {
-    
+
       html {
     font-size: 1.25em;
   }
-    
+
     .three_boxes {
         float:none;
         width:60%;
         display:block;
-        margin:0 auto 0 auto;   
+        margin:0 auto 0 auto;
     }
-    
+
     .two_boxes {
         float:none;
         width:100%;
         padding:0 0 1.5em 0;
     }
-    
+
     .textbox400 {
         height:auto;
         padding:1.5em 1.5em .5em 1.5em;
     }
-    
+
     .two_boxes_bluel {
         float:none;
         width:100%;
@@ -48,18 +48,18 @@ background: rgba(255, 255, 255, 0.6);
         width:100%;
         margin: 0 0 1.5em 0;
     }
-    
-    
-    
+
+
+
     .three_boxes h4 {
         margin:1em 0 .5em 0;
     }
-    
-    
+
+
     .flexible_container {
         padding:0;
     }
-    
+
     .container {
         height:auto;
     }
@@ -71,7 +71,7 @@ background: rgba(255, 255, 255, 0.6);
   margin:2em 0 -2em 0;
   height:auto;
 }
-    
+
     .imgfloat_ipad {
   width:100%;
   display:block;
@@ -79,7 +79,7 @@ background: rgba(255, 255, 255, 0.6);
   margin:9em 0 -4.5em 0;
   height:auto;
 }
-    
+
     .imgfloat_ipad video {
         height:215px;
     }
@@ -96,7 +96,7 @@ top:0%;
   transform: translateY(-0%);
 }
 
-    
+
     .projectinfo {
         width:100%;
         margin:2em auto 1em auto;
@@ -106,7 +106,7 @@ top:0%;
         height:auto;
         margin-top:2em;
     }
-    
+
     .projectintro {
         width:100%;
         float:none;
@@ -115,16 +115,17 @@ top:0%;
         clear:both;
         height:auto;
         padding:0;
-        
+
     }
-    
+
     h1 {
         margin-top:0;
     }
-    
+
     .sectionbreak1{
     margin:1em 0 2em 0;
     }
+
 
 }
 
@@ -136,14 +137,14 @@ top:0%;
     .p_container {
         width:100%;
     }
-    
+
        .three_boxes {
         float:none;
         width:100%;
         display:block;
-        margin:0 auto 0 auto;   
+        margin:0 auto 0 auto;
     }
-    
+
     .three_boxes h4 {
         margin:1em 0 .5em 0;
     }
@@ -163,7 +164,7 @@ top:0%;
     padding-bottom: 0rem;
     width:100%;
   }
-    
+
     .textcontainer {
         width:100%;
     }
@@ -172,18 +173,18 @@ top:0%;
   margin:0;
     width:100%;
 }
-    
+
       .showcase-item:nth-last-child(3n+2):first-child,
   .showcase-item:nth-last-child(3n+2):first-child + .showcase-item, .showcase-item:nth-last-child(3n+1):first-child,
   .showcase-item:nth-last-child(3n+1):first-child ~ .showcase-item:nth-child(-n+4) {
     width: 100%;
 }
-    
+
     .grid.gutter-1 {
         margin:0;
         padding:0;
     }
-    
+
     .grid.gutter-1 .column {
         margin:0;
         padding:0;
@@ -192,7 +193,7 @@ top:0%;
 .branding {
   margin-top:1.5em;
 }
-    
+
 .branding img {
     width:11em;
   height:auto;
@@ -211,7 +212,7 @@ top:0%;
     width:80%;
   padding:0;
 }
-    
+
 .thankyou {
     width:20em;
     height:auto;
@@ -222,7 +223,7 @@ top:0%;
 .container {
     height:auto;
 }
-    
+
     .imgfloat {
   width:100%;
   display:block;
@@ -231,7 +232,7 @@ top:0%;
   height:auto;
 }
 
-    
+
 
 .textfloat {
   width:100%;
@@ -244,15 +245,15 @@ top:0%;
   -ms-transform: translateY(-0%);
   transform: translateY(-0%);
 }
-    
-    
+
+
 }
 
 
 
  /*tablet----------------------------------------*/
 @media all and (min-width: 30em) {
-    
+
         .wrap {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -264,6 +265,11 @@ top:0%;
   .wrap:not(.wide) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .branding img {
+    width:70%;
+    height:auto;
   }
 
   .textfloat {
@@ -291,19 +297,19 @@ top:0%;
 .showcase-item {
   width: 50%;
 }
-    
+
     .textbox400 {
         height:500px;
     }
-    
-    
+
+
 .thankyou {
     margin-top: 10em;
     margin-bottom:5em;
   }
 }
 
- 
+
 /*delete??*/
 @media all and (min-width: 31.5em) {
   .wrap:not(.wide) {
@@ -314,17 +320,26 @@ top:0%;
 
 
 @media all and (min-width: 56em) {
+
+  .branding img {
+      height:173px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
   .header {
     padding-top: 2.5rem;
     padding-bottom: 0rem;
-      
+
   }
-    
+
         .textbox400 {
         height:400px;
     }
-    
-    
+
+
       .showcase-item {
     width: 33.33%;
   }

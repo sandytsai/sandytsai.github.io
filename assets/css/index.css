@@ -23,7 +23,7 @@
 
 html {
   background: #FFEBE4;
-    
+
   color: #707070;
   font: normal 300 1.5em/1.5 "Lato", Arial, serif;
   overflow-y: scroll;
@@ -189,7 +189,7 @@ img {
     width:6em;
     display:block;
     margin:auto;
-    
+
 }
 
 .projectimg {
@@ -256,7 +256,7 @@ img {
     font-variant-caps:normal;
     margin-top:0em;
     text-align:left;
-    
+
 }
 
 .label {
@@ -287,7 +287,7 @@ img {
     float:left;
     padding:1em;
     height:auto;
-    
+
 }
 
 .two_boxes_color {
@@ -351,23 +351,15 @@ height:auto;
 .sectionbreak1 {
     display: block;
     margin:8em 0 2em 0;
-    border-style:ridge;
-    border-width: 1px;
-    color:#707070;
+    border: solid .5px #e0e0e0;
+
 }
 
 .sectionbreak2 {
     display: block;
     margin:2.5em 0 2em 0;
-    border-style: ridge;
-    border-width: 1px;
-    color:#707070;
-}
+    border: solid .5px #e0e0e0;
 
-.sectionbreak3 {
-    display:block;
-    margin:2em 0 2em 0;
-    border:none;
 }
 
 .projectintro {
@@ -535,14 +527,6 @@ height:auto;
 
 }
 
-.branding img {
-    width:450px;
-  height:auto;
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-}
-
 .branding a {
   border-bottom: 0;
 }
@@ -577,7 +561,7 @@ height:auto;
 
 .menu-item a {
   border-bottom: 0;
-    
+
 }
 
 .menu-item.is-active a {
@@ -597,7 +581,7 @@ height:auto;
     padding:0;
     font-size:1.2em;
         color:#ff9797;
-    
+
 }
 
 .social-item:last-child {
@@ -606,7 +590,7 @@ height:auto;
 
 .social-item:hover {
     cursor:pointer;
-    color:#FF0000; 
+    color:#FF0000;
 }
 
 .footer {
