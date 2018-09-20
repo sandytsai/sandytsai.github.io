@@ -9,6 +9,20 @@
        url('../fonts/Apercu/Apercu-Medium.ttf') format('truetype'),
        url('../fonts/Apercu/Apercu-Medium.svg#Apercu-Medium') format('svg'),
        url('../fonts/Apercu/Apercu-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: 400;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('Apercu-Light.eot');
+    src: url('Apercu-Light.eot?#iefix') format('embedded-opentype'),
+        url('Apercu-Light.woff2') format('woff2'),
+        url('Apercu-Light.woff') format('woff'),
+        url('Apercu-Light.ttf') format('truetype'),
+        url('Apercu-Light.svg#Apercu-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
 }
 
 /*global----------------------------------------------------------*/
