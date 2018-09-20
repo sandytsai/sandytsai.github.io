@@ -24,7 +24,7 @@
 html {
   background: #FFEBE4;
 
-  color: #707070;
+  color: #676767;
   font: normal 300 1.5em/1.5 "Lato", Arial, serif;
   overflow-y: scroll;
   cursor: default;
@@ -246,7 +246,7 @@ img {
 .aboutintro {
     margin-top:1em;
     font-size:1.2em;
-    color:#707070;
+    color:#4b4b4b;
     padding:0 3em;
 }
 
@@ -367,6 +367,12 @@ height:auto;
   float:left;
     text-align:left;
     padding:0 4em 0 0;
+}
+
+.projectintro_fullwidth {
+  width:100%;
+    text-align:left;
+    padding:0 4em 4em 0;
 }
 
 .projectinfo {
