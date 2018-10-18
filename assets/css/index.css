@@ -376,6 +376,13 @@ height:auto;
 
 }
 
+.sectionbreak3 {
+    display: block;
+    margin:2.5em 0 2em 0;
+    border: none;
+
+}
+
 .projectintro {
   width:65%;
   float:left;
