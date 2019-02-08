@@ -136,9 +136,16 @@ h1 {
   line-height: 1.25;
   margin-bottom: .5em;
     margin-top:1.5em;
-    font-family:'Lato';
+    font-family:'Song Myung';
     font-variant-caps:normal;
     color:#000000;
+    text-align:left;
+}
+
+.abouttitle {
+    font-size:2em;
+    font-variant-caps:normal;
+    margin-top:0em;
     text-align:left;
 }
 
@@ -262,15 +269,6 @@ img {
     font-size:1.2em;
     color:#4b4b4b;
     padding:0 3em;
-}
-
-.abouttitle {
-    font-size:2em;
-    font-family:'Lato';
-    font-variant-caps:normal;
-    margin-top:0em;
-    text-align:left;
-
 }
 
 .label {
