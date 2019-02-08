@@ -38,7 +38,7 @@
 html {
   background: #FFEBE4;
 
-  color: #676767;
+  color: #525252;
   font: normal 300 1.5em/1.5 "Lato", Arial, serif;
   overflow-y: scroll;
   cursor: default;
@@ -120,10 +120,10 @@ footer, header, main, menu, nav, section, summary {
     margin:0 auto 5em 0;
 }
 
-/*type*/
+/*type---------------------------------------------------------------*/
 
 h2, h4, h5 {
-font-family: 'questa_sansregular','Apercu', sans-serif;
+font-family:'Apercu', sans-serif;
 font-variant-caps:all-small-caps;
     font-size: .85em;
     letter-spacing:.2em;
@@ -138,7 +138,7 @@ h1 {
     margin-top:1.5em;
     font-family:'Song Myung';
     font-variant-caps:normal;
-    color:#000000;
+    color:#262626;
     text-align:left;
 }
 
@@ -151,6 +151,7 @@ h1 {
 
 h2 {
     margin-top:0em;
+    color:#262626;
 }
 
 h5 {
@@ -163,6 +164,7 @@ h4 {
   margin:3em auto .5em auto;
   padding:0;
     text-align:center;
+    color:#262626;
 }
 
 a {
@@ -480,7 +482,7 @@ height:auto;
   right: 0rem;
   bottom: 0rem;
   background: rgba(255, 235, 228, .85);
-  color: #707070;
+  color: #383838;
   letter-spacing: .05em;
   opacity: 0;
   -webkit-transition: .25s opacity;
@@ -492,12 +494,12 @@ height:auto;
 .showcase-title {
   margin-bottom: 0;
   text-align: center;
-  text-align: center;
   width: 100%;
   padding: 0 1.5rem;
   position: absolute;
     line-height:1em;
-    font-family:"Lato", sans-serif;
+    letter-spacing:normal;
+    font-family:'Song Myung';
     font-variant-caps: normal;
     font-weight:400;
     line-height:1.3em;
@@ -515,7 +517,7 @@ height:auto;
     font-variant-caps: all-small-caps;
     line-height:1em;
     font-family:"Apercu", sans-serif;
-    color:#707070;
+    color:#4e4e4e;
     font-size:.70em;
     letter-spacing:.1em;
 
